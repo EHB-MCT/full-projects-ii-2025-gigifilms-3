@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Integral";
+  src: url(/fonts/Fontspring-DEMO-integralcf-bold.otf);
+}
+
+body {
+  background-color: #ffffff;
+  color: #fffb00;
+}
+
+.header {
+  font-family: "Integral", sans-serif;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Integral", sans-serif;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Integral", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 250;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-weight: lighter;
+}
+
+.primaryactive {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+.primaryhover {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+.secondaryactive {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.secondaryhover {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: underline;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.tertiaryactive {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+.tertiaryhover {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+.select {
+  font-family: "Roboto", sans-serif;
+}
+
+.submitbutton {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px 25px;
+}
