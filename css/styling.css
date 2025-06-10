@@ -4,91 +4,72 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #000000;
   color: #fffb00;
 }
 
 .header {
   font-family: "Integral", sans-serif;
   font-size: 200px;
-  font-style: normal;
-  font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Integral", sans-serif;
+}
+
+h1 {
+  font-size: 112px;
 }
 
 h2 {
-  font-family: "Integral", sans-serif;
   font-size: 75px;
-  font-style: normal;
-  font-weight: bold;
+}
+
+h3 {
+  font-size: 48px;
 }
 
 p {
   font-family: "Integral", sans-serif;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 250;
 }
 
-strong {
-  font-weight: bold;
-}
-
-em {
-  font-weight: lighter;
+.primaryactive,
+.primaryhover,
+.secondaryactive,
+.secondaryhover {
+  font-family: "Integral", sans-serif;
+  font-size: 18px;
+  background-color: #000000;
+  color: #fffb00;
+  text-decoration: none;
+  border: 4px solid;
+  border-radius: 40px;
+  padding: 15px 25px;
 }
 
 .primaryactive {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  background-color: #000000;
-  color: #ffffff;
-  text-decoration: none;
-  border: 3px solid black;
-  border-radius: 5px;
-  padding: 5px 25px;
+  border-color: #fffb00;
 }
 
 .primaryhover {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  background-color: white;
+  background-color: #fffb00;
   color: black;
-  text-decoration: none;
-  border: 3px solid black;
-  border-radius: 5px;
-  padding: 5px 25px;
 }
 
 .secondaryactive {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
   background-color: #ffffff;
   color: #000000;
-  text-decoration: none;
-  padding: 5px 5px;
-  border-radius: 5px;
-  border-color: white;
 }
 
 .secondaryhover {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  background-color: #ffffff;
-  color: #000000;
-  text-decoration: underline;
-  padding: 5px 5px;
-  border-radius: 5px;
-  border-color: white;
+  background-color: #000000;
+  color: #fffb00;
 }
 
 .tertiaryactive {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
   background-color: white;
   color: black;
   text-decoration: none;
