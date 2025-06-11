@@ -147,9 +147,49 @@ nav a:hover {
   border-color: black;
 }
 
-.filtercontainer {
-  
+.pagenumber {
+  font-family: "Integral", sans-serif;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 40px;
+  padding: 7px 15px;
+  border-color: black;
 }
+
+
+.number2 {
+  font-size: 18px;
+  padding-top: 5px;
+}
+.filtercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+.ourtalentscontainer {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 3em;
+    padding: 30px;
+    flex-direction: row;
+}
+
+.pages {
+      display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
+
+.pages {
+    border: 2px solid black;
+}
+
 /********************************************************* PROJECTS  ******************************************************************/
 
 #ourProjects img {
