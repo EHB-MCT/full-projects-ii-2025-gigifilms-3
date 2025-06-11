@@ -1,0 +1,10 @@
+#ourProjectsLanding {
+	min-height: 100vh;
+	background-image: url(../images/our_projects/our_projects_landing.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
