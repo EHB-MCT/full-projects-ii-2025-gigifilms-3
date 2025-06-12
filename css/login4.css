@@ -82,7 +82,7 @@ form {
 
 .rectangle h2 {
     font-size: 40px;
-    margin: top;
+    margin: 80px;
     color: black;
     font-family: "integral", sans-serif;
     text-align: center;
@@ -217,11 +217,11 @@ width: 100%;
   text-decoration: none;
   background-color: black;
   color: white;
-  padding: 11px 45px;
+  padding: 18px 25px;
   border-radius: 54px; 
   cursor: pointer;
   font-family: "Integral", sans-serif;
-  font-size: 14px;
+  font-size: 22px;
 }
 
 .submitrequest {
@@ -231,6 +231,12 @@ width: 100%;
   margin-top: -30px;
 }
 
+  .containerhome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
 
 @media (max-width: 800px) {
     
@@ -243,19 +249,11 @@ width: 100%;
 
 .rectangle h2 {
     font-size: 23px;
-    margin-top: 80px;
+    margin-top: 30px;
     color: black;
     font-family: "integral", sans-serif;
 }
 
-.rectangle p {
-    font-size: 17px;
-    margin: 20px;
-    color: black;
-    font-family: "Roboto";
-    font-style: italic;
-    font-weight: 300;
-}
 
 input[type=text], select {
   width: 100%;
@@ -411,6 +409,6 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin: -20px;
   }
 }
