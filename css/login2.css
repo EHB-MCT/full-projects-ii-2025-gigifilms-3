@@ -20,7 +20,7 @@
 
 
 .rectangle {
-  height: 487px;
+  height: 447px;
   width: 609px;
   background-color: white;
   border-radius: 19px;
@@ -88,36 +88,16 @@ div {
   padding: 20px;
 }
 
-.buttonjobs {
-text-decoration: none;
-  background-color: black;
-  color: white;
-  padding: 8px 20px;
-  margin: 200px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: "Integral", sans-serif;
-}
+
 
 hr.new4 {
 border: 1px solid black;
-width: -290px;
 margin-top: 50px;
-margin-right: -15px;
+width: 100%;
 }
 
 
-.logintext p {
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    color: black;
-    background-color: white;
-    position: absolute;
-    left: 700px;
-    top: 490px;
-    padding: 0 10px;
-}
+
 
 .accountcreate {
     display: flex;
@@ -144,6 +124,48 @@ margin-right: -15px;
     font-weight: 300;
 }
 
+
+.containbuttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.containbuttons p {
+  position: absolute;
+  top: 435px;
+  background-color: white;
+  font-style: normal;
+  width: 16%;
+  text-align: center;
+  
+}
+
+
+.buttonjobs {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 9px 24px; 
+  border-radius: 5px; 
+  cursor: pointer;
+  font-family: "Integral", sans-serif;
+  font-size: 14px;
+  margin: 8px;
+}
+
+.buttonjobs2 {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 9px 24px;
+  border-radius: 5px; 
+  cursor: pointer;
+  font-family: "Integral", sans-serif;
+  font-size: 14px;
+}
 
 @media (max-width: 800px) {
     
