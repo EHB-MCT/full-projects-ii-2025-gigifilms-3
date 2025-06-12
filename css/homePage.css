@@ -9,21 +9,47 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+.landingTitles-mobile h1 {
+  font-size: 22vw;
+  width: 60%;
+}
+.landingTitles-mobile h3 {
+  font-size: 10vw;
+}
+.landingTitles-mobile {
+  margin-bottom: 50px;
+}
+.landingTitles-desktop {
+  display: none;
+}
 
-.landingTitles {
-  margin-bottom: 60px;
+@media (min-width: 1024px) {
+  .landingTitles-mobile {
+    display: none;
+  }
+  .landingTitles-desktop {
+    display: block;
+    margin-bottom: 60px;
+  }
+  .landingTitles-desktop h1 {
+    font-size: 15vw;
+  }
+  .landingTitles-desktop h3 {
+    font-size: 4vw;
+  }
 }
 
 /********************************************************* OUR STORY  ******************************************************************/
+
 .ourStory-text,
 .casting-text {
-  background-color: black;
   padding: 40px;
 }
 
-.ourProjects-text {
-  color: black;
-  padding: 40px;
+.ourStory-text-container,
+.casting-text {
+  background-color: black;
+  max-width: 100%;
 }
 
 .ourStory-text h3,
@@ -41,20 +67,101 @@
   width: 100%;
 }
 
+@media (min-width: 750px) {
+  #ourStory {
+    display: flex;
+  }
+  #ourStory img,
+  #casting img {
+    display: block;
+    min-width: 40%;
+  }
+  .ourStory-text-container {
+    max-width: 100%;
+  }
+  .ourStory-text-container p,
+  #casting p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 850px) {
+  #ourStory,
+  #casting {
+    display: flex;
+  }
+  #ourStory img {
+    width: 30%;
+  }
+  .ourStory-text,
+  .casting-text {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #ourStory p,
+  #casting p {
+    font-size: 20px;
+  }
+}
+
 /********************************************************* PROJECTS  ******************************************************************/
 
 #ourProjects img {
+  display: block;
   width: 90%;
-  margin-bottom: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#ourProjects a {
+  display: block;
+  width: 50%;
+  background-color: black;
+  border: 0;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.project-title {
+  color: #fffb00;
+  font-size: 7vw;
+}
+
+.ourProjects-text {
+  color: black;
+  padding: 40px;
+  text-align: center;
+  width: 50%;
+  margin: 30px auto;
+}
+
+@media (min-width: 800px) {
+  #ourProjects img {
+    width: 30%;
+  }
+  #ourProjects a {
+    width: 30%;
+  }
+  .projects {
+    display: flex;
+  }
 }
 
 /********************************************************* CASTING  ******************************************************************/
 
 .last-title {
   color: black;
-  margin: 20px auto;
+  margin: 50px auto;
   width: 80%;
 }
 .last-title h3 {
   text-align: center;
+}
+
+@media (min-width: 800px) {
+  #casting img {
+    width: 40%;
+  }
 }
