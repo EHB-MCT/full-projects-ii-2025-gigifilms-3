@@ -27,6 +27,7 @@ nav {
 .container h3 {
     margin: 40px;
     color: black;
+    font-family: "Integral-bold", sans-serif;
 }
 .goback {
     text-decoration: none;
@@ -35,6 +36,22 @@ nav {
     font-weight: 600;
     font-size: 50px;
     margin: 27px;
+}
+
+.wordlwidecentered h3 {
+  color: black;
+  font-family: "Integral-bold", sans-serif;
+}
+
+.wordlwidecentered p {
+    color: black;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 @media (max-width: 800px) {
@@ -64,6 +81,7 @@ nav {
 .container h3 {
 margin: -20px;
 font-size: 24px
+
 }
 .goback {
 margin: -5px;
@@ -72,5 +90,16 @@ margin: -5px;
 .wordlwidecentered {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.wordlwidecentered h3 {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.wordlwidecentered p {
+  text-align: left;
+  margin-top: 50px;
 }
 }
