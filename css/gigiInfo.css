@@ -9,16 +9,8 @@
 	justify-content: flex-end;
 }
 
-#gigiInfoLanding h1 {
+#gigiInfoTitle h1 {
 	text-align: right;
-	display: flex;
-	align-self: flex-end;
-}
-
-#black-box {
-	background-color: black;
-	min-height: 100vh;
-	max-width: 25%;
 	display: flex;
 	align-self: flex-end;
 }
