@@ -66,16 +66,17 @@ input[type=text], select {
 }
 
 
-input[type=submit] {
-  width: 29%;
+
+.accountcreate a {
+  width: 28%;
   background-color: black;
   color: white;
   padding: 9px;
-  margin-top: 60px;
   border: none;
   border-radius: 53px;
   cursor: pointer; 
   font-family: "Integral", sans-serif;
+  text-decoration: none;
 }
 
 input[type=submit]:hover {
@@ -160,16 +161,17 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+.accountcreate a {
   width: 100%;
   background-color: black;
   color: white;
   padding: 9px;
-  margin-top: 10px;
+  margin: 30px;
   border: none;
   border-radius: 53px;
   cursor: pointer; 
   font-family: "Integral", sans-serif;
+  text-decoration: none;
 }
 
 
