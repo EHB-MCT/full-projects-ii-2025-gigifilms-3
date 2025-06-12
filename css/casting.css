@@ -60,6 +60,54 @@ nav a:hover {
 	border: 0;
 }
 
+.landingTitle {
+	display: flex;
+	justify-content: end;
+	font-size: 112px;
+	margin-bottom: 54px;
+	margin-right: 70px;
+}
+
+.filterbutton {
+  font-family: "Integral", sans-serif;
+  color: black;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 40px;
+  padding: 10px 25px;
+  border-color: black;
+}
+
+
+.filterbutton:hover {
+	background-color: black;
+	color: white;
+}
+
+
+.pagenumber {
+  font-family: "Integral", sans-serif;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 40px;
+  padding: 7px 15px;
+  border-color: black;
+}
+
+
+.number2 {
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.pages {
+      display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
+
 .menu-button {
 	display: none;
 }
@@ -70,11 +118,60 @@ nav a:hover {
 	.menu-button {
 		display: block;
 	}
+
+	.ourtalentscontainer {
+	flex-direction: column;
+	align-items: center;
+	}
+
+	.ourtalentscontainer img{
+		width: 68%;
+	}
+
+	.filterbutton {
+		margin: 13px;
+		font-size: 1px;
+	}
+
+	.landingTitle {
+		margin-right: 10px;
+		justify-content: end;
+		font-size: 58px;
+	}
+
+
+	#landingPageCasting {
+		background-position: 10%;
+}
+
+.ourtalents-text h2 {
+	font-size: 60px;
+}
+
+.filtercontainer{
+	justify-content: space-around;
+}
+
+.filtercontainer h3{
+	font-size: 14px;
+}
+
+.filterbutton{
+	font-size: 10px;
+}
+
+  .pages h3,
+  .pagenumber,
+  .number2 {
+    font-size: 10px;
+    padding: 2px 6px;
+    margin:  4px;
+  }
 }
 /********************************************************* LANDING PAGE ***************************************/
-#landingPage {
+#landingPageCasting {
 	min-height: 100vh;
-	background-image: url(../images/casting/casting_landing.jpg);
+	background-image: url(../images/casting/casting_landingNew.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -86,6 +183,8 @@ nav a:hover {
 .landingTitles {
 	margin-bottom: 60px;
 }
+
+
 
 /********************************************************* OUR STORY  ******************************************************************/
 #casting {
@@ -114,12 +213,6 @@ nav a:hover {
 	padding-top: 90px;
 }
 
-.filterbutton{
-  background-color: #ffffff;
-  color: #000000;
-  border: 10;
-  border-radius: 10px;
-}
 
 .ourStory-text h3,
 .ourProjects-text h3,
@@ -136,15 +229,14 @@ nav a:hover {
 	width: 100%;
 }
 
-.filterbutton {
-  font-family: "Integral", sans-serif;
-  font-size: 18px;
-  color: black;
-  text-decoration: none;
-  border: 3px solid;
-  border-radius: 40px;
-  padding: 10px 25px;
-  border-color: black;
+
+
+.filtercontainer h3{
+	font-size: 16px;
+}
+
+.filtercontainer button{
+	font-size: 16px;
 }
 
 .pagenumber {
@@ -176,8 +268,8 @@ nav a:hover {
     justify-content: center;
     align-content: flex-start;
     gap: 3em;
-    padding: 30px;
-    flex-direction: row;
+ 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 .pages {
@@ -187,22 +279,6 @@ nav a:hover {
 }
 
 .pages {
-    border: 2px solid black;
+ /*   border: 2px solid black; */
 }
 
-/********************************************************* PROJECTS  ******************************************************************/
-
-#ourProjects img {
-	width: 100%;
-}
-
-/********************************************************* CASTING  ******************************************************************/
-
-.last-title {
-	color: black;
-	margin: 20px auto;
-	width: 80%;
-}
-.last-title h3 {
-	text-align: center;
-}

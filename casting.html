@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>GIGIFILMS - Casting</title>
+		<title>Casting - Gigifilms</title>
 		<link href="./css/reset.css" rel="stylesheet" type="text/css" />
 		<link href="./css/styling.css" rel="stylesheet" type="text/css" />
 		<link href="./css/casting.css" rel="stylesheet" type="text/css" />
@@ -40,8 +40,9 @@
 				</ul>
 			</nav>
 		</header>
-		<section id="landingPage">
+		<section id="landingPageCasting">
 			<div class="landingTitles"></div>
+			<h2 class="landingTitle">CASTING</h2>
 		</section>
 		<section id="casting">
 			<p class="casting-text">
@@ -56,7 +57,7 @@
                 <h2>Our Talents</h2>
                 <div class="filtercontainer">
                     <h3 class="sort">SORT ALPHABETICALLY</h3>
-                    <ul><a href="#" class="filterbutton">DETAILED SORTING</a></ul>
+                    <button class="filterbutton">DETAILED SORTING</button>
                 </div>
             </div>
             <div class="ourtalentscontainer">
@@ -80,5 +81,15 @@
                 <h3>next</h3> <h3>→</h3>
             </div>
         </section>
+		    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
 	</body>
 </html>
