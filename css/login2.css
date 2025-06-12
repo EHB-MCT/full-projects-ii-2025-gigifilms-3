@@ -27,7 +27,7 @@
 }
 
 
-.logincontainer {
+.createcontainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@
 
 
 .rectangle h2 {
-    font-size: 50px;
+    font-size: 40px;
     margin: 20px;
     color: black;
     font-family: "integral-bold", sans-serif;
@@ -88,7 +88,7 @@ div {
   padding: 20px;
 }
 
-.buttonlogin {
+.buttonjobs {
 text-decoration: none;
   background-color: black;
   color: white;
@@ -134,8 +134,20 @@ margin-right: -15px;
     font-family: "integral", sans-serif;
 }
 
+
+.rectangle p {
+    font-size: 17px;
+    margin: 20px;
+    color: black;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 300;
+}
+
+
 @media (max-width: 800px) {
     
+
 .rectangle {
   height: 400.5px;
   width: 275px;
@@ -143,10 +155,19 @@ margin-right: -15px;
 }
 
 .rectangle h2 {
-    font-size: 30px;
+    font-size: 19px;
     margin: 20px;
     color: black;
     font-family: "integral-bold", sans-serif;
+}
+
+.rectangle p {
+    font-size: 17px;
+    margin: 20px;
+    color: black;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 300;
 }
 
 input[type=text], select {
@@ -183,16 +204,27 @@ div {
   padding: 20px;
 }
 
-.buttonlogin {
+.buttonjobs {
   text-decoration: none;
   background-color: black;
   color: white;
-  padding: 6px 24px; 
+  padding: 9px 24px; 
   border-radius: 5px; 
   cursor: pointer;
   font-family: "Integral", sans-serif;
   font-size: 14px;
-  margin: 20px;
+  margin: 8px;
+}
+
+.buttonjobs2 {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 9px 24px;
+  border-radius: 5px; 
+  cursor: pointer;
+  font-family: "Integral", sans-serif;
+  font-size: 14px;
 }
 
 hr.new4 {
@@ -229,4 +261,21 @@ margin-right: 300px;
     font-family: "integral", sans-serif;
 }
 
+.containbuttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.containbuttons p {
+  position: absolute;
+  top: 360px;
+  background-color: white;
+  font-style: normal;
+  width: 16%;
+  text-align: center;
+  
+}
 }
