@@ -130,3 +130,9 @@ nav a:hover {
 .last-title h3 {
   text-align: center;
 }
+
+@media (min-width: 800px) {
+  #casting img {
+    width: 40%;
+  }
+}
