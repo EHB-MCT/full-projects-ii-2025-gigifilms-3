@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gigifilms</title>
+		<link href="./css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="./css/styling.css" rel="stylesheet" type="text/css" />
+		<link href="./css/castingProjects.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class="sidebar">
+					<li onclick="hideSidebar()">
+						<a href="#"
+							><img
+								src="images/icons/close_32dp_FFFB00_FILL0_wght400_GRAD0_opsz40.svg"
+						/></a>
+					</li>
+					<li><a href="#" class="primaryactive">home</a></li>
+					<li><a href="#" class="primaryactive">info</a></li>
+					<li><a href="#" class="primaryactive">our projects</a></li>
+					<li><a href="#" class="primaryactive">casting</a></li>
+					<li><a href="#" class="primaryactive">login</a></li>
+				</ul>
+				<ul>
+					<li><a href="#" class="logo">gigifilms</a></li>
+					<li><a href="#" class="primaryhover hideMobile">home</a></li>
+					<li><a href="#" class="primaryactive hideMobile">info</a></li>
+					<li><a href="#" class="primaryactive hideMobile">our projects</a></li>
+					<li><a href="#" class="primaryactive hideMobile">casting</a></li>
+					<li><a href="#" class="secondaryactive hideMobile">login</a></li>
+					<li onclick="showSidebar()" class="menu-button">
+						<a href="#"
+							><img
+								src="images/icons/menu_24dp_FFFB00_FILL0_wght400_GRAD0_opsz24.svg"
+						/></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section id="landingCastingProj">
+			<div class="landingText-desktop">
+				<h1>CASTING</h1>
+				<h1>PROJECTS</h1>
+			</div>
+
+			<div class="landingText-mobile">
+				<h1>CASTING</h1>
+				<h1>PROJECTS</h1>
+			</div>
+		</section>
+
+		<section id="projectCall">
+			<div class="projectText-desktop">
+				<p>
+					Discover the ongoing and completed film projects of GIGI Films vzw.
+					Actors and new talent can easily register here for castings and
+					collaborations. This platform brings creators and talent together —
+					open, creative, and in motion.
+				</p>
+			</div>
+
+			<div class="projectText-mobile">
+				<p>
+					Discover the ongoing and completed film projects of GIGI Films vzw.
+					Actors and new talent can easily register here for castings and
+					collaborations. This platform brings creators and talent together —
+					open, creative, and in motion.
+				</p>
+			</div>
+		</section>
+
+		<section id="projectList">
+			<div class="projectHeader-desktop">
+				<h3>PROJECTS</h3>
+			</div>
+			<div class="projectHeader-mobile">
+				<h3>PROJECTS</h3>
+			</div>
+			<div class="projectHeaderButtons">
+				<h2>PROJECTS FOUND</h2>
+				<div class="buttons">
+					<h2>SORT BY:</h2>
+					<ul>
+						<a href="#" class="sortBy"><h2>ALL</h2></a>
+					</ul>
+					<ul>
+						<a href="#" class="sortBy"><h2>NEWEST</h2></a>
+					</ul>
+					<ul>
+						<a href="#" class="sortBy"><h2>OLDEST</h2></a>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="list">
+			<div class="projectA">
+				<h3>CASTING CALL FOR ACTOR</h3>
+				<h2>NAME OF FILMHOUSE</h2>
+				<img src="images/casting_projects/casting_projects_cfa.jpg" />
+				<p>
+					QQQQQQQQQQQQQQQQQQQQQ QQQQQQQQQQQQQQQQQQQQQQQQQ
+					QQQQQQQQQQQQQQQQQQQQQQQQQQ QQQQQQQQQQQQQQQQQQQQQQQQQ
+					QQQQQQQQQQQQQQQQQQQQQQQQQ QQQQQQQQQQQQQQQQQQQQQQQQQQ
+					QQQQQQQQQQQQQQQQQQQQQQQQQQ QQQQQQQQQQQQQQQQQQQQ
+				</p>
+				<h2>ONLINE SINCE 3 DAYS</h2>
+			</div>
+		</section>
+
+		<script>
+			function showSidebar() {
+				const sidebar = document.querySelector(".sidebar");
+				sidebar.style.display = "flex";
+			}
+			function hideSidebar() {
+				const sidebar = document.querySelector(".sidebar");
+				sidebar.style.display = "none";
+			}
+		</script>
+	</body>
+</html>
