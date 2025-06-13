@@ -16,62 +16,19 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+    
 }
 
 
 .rectangle {
-  height: 497px;
-  width: 1109px;
+  height: 447px;
+  width: 609px;
   background-color: white;
   border-radius: 19px;
 }
 
-form {
-    display: flex;
-    flex: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    gap: 20em;
- 	margin-bottom: 50px;
-	margin-top: 50px;
-}
 
-.smallform label {
-  font-family: 'robot', sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  color: black;
-}
-
-.smallform2 label {
-  font-family: 'roboto', sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  color: black;
-}
-
-.smallform p {
-  color: black;
-  font-style: normal;
-  margin-left: 0px;
-}
-
-.smallform {
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-  margin-top: -50px;
-}
-
-.smallform2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-  margin-top: -100px;
-}
-
-
-.requestcontainer {
+.createcontainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,18 +65,6 @@ input[type=text], select {
 
 }
 
-#fname,
-#lname,
-#email,
-#phone {
-  border-radius: 60px;
-}
-
-
-#fillinform {
-  margin: 0px;
-  border-radius: 20px;
-}
 
 input[type=submit] {
   width: 29%;
@@ -216,26 +161,18 @@ width: 100%;
   text-decoration: none;
   background-color: black;
   color: white;
-  padding: 11px 45px;
-  border-radius: 54px; 
+  padding: 9px 24px;
+  border-radius: 5px; 
   cursor: pointer;
   font-family: "Integral", sans-serif;
   font-size: 14px;
 }
 
-.submitrequest {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  margin-top: -30px;
-}
-
-
 @media (max-width: 800px) {
     
 
 .rectangle {
-  height: 700.5px;
+  height: 400.5px;
   width: 275px;
   margin-bottom: 150px;
 }
@@ -307,7 +244,7 @@ div {
   background-color: black;
   color: white;
   padding: 9px 24px;
-  border-radius: 68px; 
+  border-radius: 5px; 
   cursor: pointer;
   font-family: "Integral", sans-serif;
   font-size: 14px;
@@ -362,58 +299,6 @@ margin-right: 300px;
   font-style: normal;
   width: 16%;
   text-align: center;
-  font-weight: bold;
   
 }
-
-.smallform p {
-  color: black;
-  font-style: normal;
-  margin-left: 0px;
-}
-
-#fillinform {
-  margin: 0px;
-  border-radius: 20px;
-}
-
-.submitrequest {
-  display: flex;
-  align-content: center;
-
-}
-
-form {
-  width: 230px;
-  box-sizing: border-box;
-}
-
- form {
-    display: flex ; 
-    flex-direction: column ;
-    align-items: center ; 
-    gap: 1em;
-    margin-top: 20px ;
-    margin-bottom: 20px ;
-    width: 100% ;
-  }
-
-  .smallform, .smallform2 {
-    display: flex ;
-    flex-direction: column ;
-    align-items: center;
-    width: 100% ;
-  }
-
-  label {
-    text-align: center ;
-    width: 100% ;
-  }
-
-  input {
-    width: 80% ;
-    max-width: 250px;
-  }
-  
-  
 }
