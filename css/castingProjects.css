@@ -103,6 +103,26 @@ h1 {
 #projectList {
 	color: black;
 }
+
+#list {
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color: black;
+	border-radius: 60px;
+}
+#pageSwitch {
+	margin-top: 5%;
+	margin-left: 32%;
+}
+#pageSwitch a {
+	display: flex;
+	display: inline-block;
+}
+
+#pageSwitch h3 {
+	font-size: 1vw;
+}
+
 /**********************RESPONSIVE*******************/
 
 /**************************DESKTOP*************/
@@ -168,6 +188,36 @@ h1 {
 	justify-content: space-between;
 }
 
+.projectA {
+	margin-top: 6%;
+	margin-left: 4%;
+	padding: 2% 2%;
+}
+
+.projectInfo-desktop {
+	display: flex;
+	margin-top: 3%;
+	width: 10%;
+	justify-content: space-evenly;
+}
+
+.projectInfo-desktop img {
+	margin-left: 10%;
+	margin-bottom: 40%;
+}
+
+.projectTitle-mobile {
+	display: none;
+}
+
+.filmhouseName-mobile {
+	display: none;
+}
+
+.projectInfo-mobile {
+	display: none;
+}
+
 /*****************MOBILE*****************/
 
 @media (max-width: 1024px) {
@@ -218,17 +268,41 @@ h1 {
 		justify-content: space-between;
 	}
 
+	.textList {
+		display: inline;
+
+		display: flex;
+		padding-right: 12px;
+		width: 100%;
+	}
+
 	.projectHeaderButtons,
 	a {
 		text-decoration: none;
 		color: black;
 		display: flex;
-		padding-left: 20px;
-		padding-right: 25px;
+		padding-left: 30px;
+		padding-right: 10px;
 	}
-}
+	.projectTitle-mobile {
+		display: flex;
+		font-size: 5vw;
+		margin: 0%;
+	}
+	.projectTitle-desktop {
+		display: none;
+	}
+	.filmhouseName-desktop {
+		display: none;
+	}
+	.filmhouseName-mobile {
+		display: flex;
+		margin: 0;
+	}
 
-.buttons {
-	display: flex;
-	justify-content: space-between;
+	.projectInfo-mobile p {
+		margin-top: 3%;
+		font-size: 4vw;
+		width: 1%;
+	}
 }
