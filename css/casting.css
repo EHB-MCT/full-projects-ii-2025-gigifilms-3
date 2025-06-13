@@ -1,0 +1,272 @@
+nav {
+  position: fixed;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+}
+
+nav a img {
+  width: 40px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+nav a:hover {
+  /*transform: scale(1.2);
+  transition: 1s;*/
+}
+
+.logo {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+  background-color: black;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+.sidebar a {
+  width: 100%;
+  border: 0;
+}
+
+.landingTitle {
+  display: flex;
+  justify-content: end;
+  font-size: 112px;
+  margin-bottom: 54px;
+  margin-right: 70px;
+}
+
+.filterbutton {
+  font-family: "Integral", sans-serif;
+  color: black;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 40px;
+  padding: 10px 25px;
+  border-color: black;
+}
+
+.filterbutton:hover {
+  background-color: black;
+  color: white;
+}
+
+.pagenumber {
+  font-family: "Integral", sans-serif;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 40px;
+  padding: 7px 15px;
+  border-color: black;
+}
+
+.number2 {
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.pages {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-end;
+}
+
+.menu-button {
+  display: none;
+}
+@media (max-width: 800px) {
+  .hideMobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+
+  .ourtalentscontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ourtalentscontainer img {
+    width: 68%;
+  }
+
+  .filterbutton {
+    margin: 13px;
+    font-size: 1px;
+  }
+
+  .landingTitle {
+    margin-right: 10px;
+    justify-content: end;
+    font-size: 58px;
+  }
+
+  #landingPageCasting {
+    background-position: 10%;
+  }
+
+  .ourtalents-text h2 {
+    font-size: 60px;
+  }
+
+  .filtercontainer {
+    justify-content: space-around;
+  }
+
+  .filtercontainer h3 {
+    font-size: 14px;
+  }
+
+  .filterbutton {
+    font-size: 10px;
+  }
+
+  .pages h3,
+  .pagenumber,
+  .number2 {
+    font-size: 10px;
+    padding: 2px 6px;
+    margin: 4px;
+  }
+}
+/********************************************************* LANDING PAGE ***************************************/
+#landingPageCasting {
+  min-height: 100vh;
+  background-image: url(../images/casting/casting_landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.landingTitles {
+  margin-bottom: 60px;
+}
+
+/********************************************************* OUR STORY  ******************************************************************/
+#casting {
+  background-color: white;
+  display: flex;
+  text-align: center;
+}
+
+.casting-title {
+  padding: 40px;
+  color: black;
+}
+
+.casting-text {
+  padding: 40px;
+  color: black;
+  font-weight: 100px;
+}
+
+.ourtalents {
+  padding: 40px;
+  color: black;
+}
+
+.sort {
+  padding-top: 90px;
+}
+
+.ourStory-text h3,
+.ourProjects-text h3,
+.casting-text h3 {
+  margin-bottom: 20px;
+}
+.ourStory-text p,
+.casting-text p {
+  margin-bottom: 50px;
+}
+
+#ourStory img,
+#casting img {
+  width: 100%;
+}
+
+.filtercontainer h3 {
+  font-size: 16px;
+}
+
+.filtercontainer button {
+  font-size: 16px;
+}
+
+.pagenumber {
+  font-family: "Integral", sans-serif;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 40px;
+  padding: 7px 15px;
+  border-color: black;
+}
+
+.number2 {
+  font-size: 18px;
+  padding-top: 5px;
+}
+.filtercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.ourtalentscontainer {
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 3em;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.pages {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-end;
+}
+
+.pages {
+  /*   border: 2px solid black; */
+}
