@@ -1,0 +1,106 @@
+.landing-aboutUs {
+  background-image: url(../images/gigi_info/about-us-landing.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.landing-aboutUs h2 {
+  font-size: 10vh;
+  margin-bottom: 50px;
+  margin-right: 5%;
+  text-align: right;
+}
+
+@media (min-width: 800px) {
+  .landing-aboutUs h2 {
+    font-size: 20vh;
+  }
+}
+/**************************************************** WHO ARE WE ******************************************/
+
+.who {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: stretch;
+}
+.image-who {
+  max-width: 40%;
+  background-image: url();
+}
+
+.who .text-container {
+  background-color: black;
+  padding: 50px;
+}
+
+.who p,
+.who h3 {
+  margin-bottom: 35px;
+}
+
+.who p {
+  font-size: 14px;
+}
+
+@media (min-width: 800px) {
+  .who img {
+    width: 35%;
+  }
+  .who .text-container {
+    max-width: 40%;
+    padding: 150px;
+  }
+}
+
+/**************************************************** WHERE ARE WE ******************************************/
+
+.One-vision {
+  background-color: brown;
+}
+
+/**************************************************** PORTFOLIO ******************************************/
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio div {
+  margin-bottom: 30px;
+}
+.portfolio img {
+  width: 70%;
+  padding: 50px;
+}
+.portfolio p {
+  padding: 15px 50px;
+  font-size: 14px;
+}
+.Zohra p {
+  color: black;
+}
+.Romy {
+  background-color: black;
+}
+
+@media (min-width: 800px) {
+  .portfolio img {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .portfolio div {
+    width: 50%;
+  }
+  .portfolio p {
+    font-size: 1rem;
+    padding: 100px 150px;
+  }
+}

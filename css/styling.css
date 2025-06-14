@@ -20,11 +20,11 @@ h3 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 10rem;
 }
 
 h2 {
-  font-size: 75px;
+  font-size: 7rem;
 }
 
 h3 {
@@ -58,6 +58,12 @@ p {
 
 .primaryactive {
   border-color: #fffb00;
+}
+
+.primaryactive:hover {
+  background-color: #fffb00;
+  color: #000000;
+  transition: 0.5s;
 }
 
 .primaryhover {
