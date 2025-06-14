@@ -66,6 +66,7 @@
 .wrapper-login .button:hover {
   background-color: #fffb00;
   color: black;
+  transition: 0.5s;
 }
 
 .forgot {
