@@ -159,8 +159,12 @@ nav a:hover {
 		background-position: center center;
 	}
 
+	.ourtalents-text p {
+		width: 90%;
+	}
+
 	.ourtalents-text h2 {
-		font-size: 60px;
+		font-size: 35px;
 	}
 
 	.filtercontainer {
@@ -201,6 +205,15 @@ nav a:hover {
 		flex-direction: column;
 		gap: 1.8em;
 	}
+
+#casting p {
+	width: 80%;
+}
+
+
+.input-pair label {
+font-size: 13px;
+}
 }
 /********************************************************* LANDING PAGE ***************************************/
 #landingPageCasting {
