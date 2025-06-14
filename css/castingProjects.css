@@ -1,234 +1,152 @@
-/**************************NAVIGATIE****************/
-
-nav {
-	position: fixed;
-	width: 100%;
-}
-nav ul {
-	display: flex;
-	gap: 10px;
-	justify-content: center;
-	align-items: center;
-}
-
-nav li {
-	height: 50px;
-}
-
-nav li:first-child {
-	margin-right: auto;
-}
-
-nav a {
-	display: flex;
-	align-items: center;
-}
-
-nav a img {
-	width: 40px;
-	margin-top: 5px;
-	margin-bottom: 20px;
-}
-
-nav a:hover {
-	/*transform: scale(1.2);
-  transition: 1s;*/
-}
-
-.logo {
-	font-size: 24px;
-	margin-top: 10px;
-}
-
-.sidebar {
-	position: fixed;
-	top: 0;
-	right: 0;
-	height: 100vh;
-	width: 100%;
-	z-index: 100;
-	background-color: black;
-	display: none;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-}
-
-.sidebar li {
-	width: 100%;
-}
-.sidebar a {
-	width: 100%;
-	border: 0;
-}
-
-.menu-button {
-	display: none;
-}
-@media (max-width: 800px) {
-	.hideMobile {
-		display: none;
-	}
-	.menu-button {
-		display: block;
-	}
-}
-
-.landingText-mobile,
-h1 {
-	font-size: 15vw;
-	margin-bottom: 20px;
-}
-
 /*************************SECTIONS*************************/
 
 #landingCastingProj {
-	min-height: 100vh;
-	background-image: url(/images/casting_projects/casting_projects_landing.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
+  min-height: 100vh;
+  background-image: url(/images/casting_projects/casting_projects_landing.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 #projectCall {
-	color: black;
-	width: 100%;
-	padding-top: 8%;
-	padding-bottom: 8%;
+  color: black;
+  width: 100%;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 #projectList {
-	color: black;
+  color: black;
 }
 /**********************RESPONSIVE*******************/
 
 /**************************DESKTOP*************/
 
 @media (min-width: 1024px) {
-	.landingText-mobile {
-		display: none;
-	}
-	.landingText-desktop {
-		display: block;
-		margin-bottom: 60px;
-	}
-	.landingText-desktop h1 {
-		font-size: 10vw;
-		margin-bottom: 10px;
-	}
-	.landingText-desktop h3 {
-		font-size: 4vw;
-	}
+  .landingText-mobile {
+    display: none;
+  }
+  .landingText-desktop {
+    display: block;
+    margin-bottom: 60px;
+  }
+  .landingText-desktop h1 {
+    font-size: 10vw;
+    margin-bottom: 10px;
+  }
+  .landingText-desktop h3 {
+    font-size: 4vw;
+  }
 
-	.projectText-mobile {
-		display: none;
-	}
+  .projectText-mobile {
+    display: none;
+  }
 
-	#projectCall {
-		width: 700px;
-		margin-left: 15px;
-	}
+  #projectCall {
+    width: 700px;
+    margin-left: 15px;
+  }
 
-	#projectList,
-	h3 {
-		font-size: 5vw;
-	}
+  #projectList,
+  h3 {
+    font-size: 5vw;
+  }
 
-	.projectHeader-mobile {
-		display: none;
-	}
+  .projectHeader-mobile {
+    display: none;
+  }
 
-	#projectList,
-	h2 {
-		font-size: 1.5vw;
-		margin-top: 25px;
-		display: inline;
-	}
+  #projectList,
+  h2 {
+    font-size: 1.5vw;
+    margin-top: 25px;
+    display: inline;
+  }
 
-	.projectHeaderButtons {
-		display: flex;
-		justify-content: space-between;
-	}
+  .projectHeaderButtons {
+    display: flex;
+    justify-content: space-between;
+  }
 
-	.projectHeaderButtons,
-	a {
-		text-decoration: none;
-		color: black;
-		display: flex;
-		padding-left: 20px;
-		padding-right: 25px;
-	}
+  .projectHeaderButtons,
+  a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 25px;
+  }
 }
 
 .buttons {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*****************MOBILE*****************/
 
 @media (max-width: 1024px) {
-	.landingText-mobile {
-		display: block;
-	}
-	.landingText-desktop {
-		display: none;
-		margin-bottom: 60px;
-	}
-	.landingText-desktop h1 {
-		font-size: 15vw;
-		margin-bottom: 50px;
-	}
-	.landingText-desktop h3 {
-		font-size: 4vw;
-	}
+  .landingText-mobile {
+    display: block;
+  }
+  .landingText-desktop {
+    display: none;
+    margin-bottom: 60px;
+  }
+  .landingText-desktop h1 {
+    font-size: 15vw;
+    margin-bottom: 50px;
+  }
+  .landingText-desktop h3 {
+    font-size: 4vw;
+  }
 
-	#landingCastingProj {
-		background-position: 75% 25%;
-	}
+  #landingCastingProj {
+    background-position: 75% 25%;
+  }
 
-	.projectText-desktop {
-		display: none;
-	}
+  .projectText-desktop {
+    display: none;
+  }
 
-	#projectCall {
-		width: 350px;
-		margin-left: 15px;
-	}
+  #projectCall {
+    width: 350px;
+    margin-left: 15px;
+  }
 
-	.projectHeader-desktop {
-		display: none;
-	}
+  .projectHeader-desktop {
+    display: none;
+  }
 
-	.projectHeader-mobile {
-		font-size: 1vw;
-	}
+  .projectHeader-mobile {
+    font-size: 1vw;
+  }
 
-	#projectList,
-	h2 {
-		font-size: 3vw;
-		margin-top: 25px;
-	}
+  #projectList,
+  h2 {
+    font-size: 3vw;
+    margin-top: 25px;
+  }
 
-	.projectHeaderButtons {
-		display: flex;
-		justify-content: space-between;
-	}
+  .projectHeaderButtons {
+    display: flex;
+    justify-content: space-between;
+  }
 
-	.projectHeaderButtons,
-	a {
-		text-decoration: none;
-		color: black;
-		display: flex;
-		padding-left: 20px;
-		padding-right: 25px;
-	}
+  .projectHeaderButtons,
+  a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 25px;
+  }
 }
 
 .buttons {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }

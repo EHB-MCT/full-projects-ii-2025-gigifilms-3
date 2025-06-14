@@ -10,47 +10,42 @@
   </head>
   <body>
     <header>
+      <!----------------------------------- SIDEBAR MENU (Mobile) ----------------------------------------->
       <nav>
-        <ul class="sidebar">
-          <li onclick="hideSidebar()">
-            <a href="#"
-              ><img
-                src="images/icons/close_32dp_FFFB00_FILL0_wght400_GRAD0_opsz40.svg"
-            /></a>
-          </li>
-          <li><a href="index.html" class="logo">GIGIfilms</a></li>
-          <li><a href="index.html" class="primaryactive">home</a></li>
-          <li><a href="casting.html" class="primaryactive">casting</a></li>
-          <li>
-            <a href="ourProjects.html" class="primaryactive">our projects</a>
-          </li>
-          <li><a href="#" class="primaryactive">about us</a></li>
-          <li><a href="login.html" class="primaryactive">login</a></li>
-        </ul>
-        <ul>
-          <li><a href="index.html" class="logo">GIGIfilms</a></li>
-          <li><a href="index.html" class="primaryhover hideMobile">home</a></li>
-          <li>
-            <a href="casting.html" class="primaryactive hideMobile">casting</a>
-          </li>
-          <li>
-            <a href="ourProjects.html" class="primaryactive hideMobile"
-              >our projects</a
-            >
-          </li>
-          <li><a href="#" class="primaryactive hideMobile">about us</a></li>
-          <li>
-            <a href="login.html" class="secondaryactive hideMobile">login</a>
-          </li>
-          <li onclick="showSidebar()" class="menu-button">
-            <a href="#"
-              ><img
-                src="images/icons/menu_24dp_FFFB00_FILL0_wght400_GRAD0_opsz24.svg"
-            /></a>
-          </li>
-        </ul>
+        <input type="checkbox" id="sidebar-active" />
+        <a href="index.html" class="logo logo-mobile">GIGIfilms</a>
+        <a href="login.html" class="primaryactive logo-mobile login-mobile"
+          >Login</a
+        >
+        <label for="sidebar-active" class="menu-icon"
+          ><img
+            src="images/icons/menu_24dp_FFFB00_FILL0_wght400_GRAD0_opsz24.svg"
+            width="30"
+            height="30"
+        /></label>
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+          <label for="sidebar-active" class="close-icon">
+            <img
+              class="close-icon"
+              src="images/icons/close_32dp_FFFB00_FILL0_wght400_GRAD0_opsz40.svg"
+          /></label>
+          <a href="index.html" class="logo">GIGIfilms</a>
+          <a href="index.html" class="primaryactive nav-a">home</a>
+          <a href="#aboutUs.html" class="primaryactive nav-a">about us</a>
+
+          <a href="ourWorks.html" class="primaryactive nav-a">our Works</a>
+
+          <a href="talents.html" class="primaryactive nav-a">Talents</a>
+
+          <a href="casting.html" class="primaryactive nav-a">casting calls</a>
+
+          <a href="login.html" class="primaryactive nav-a">Register</a>
+          <a href="login.html" class="primaryactive nav-a login">Login</a>
+        </div>
       </nav>
     </header>
+    <!-----------------------------------  LANDING PAGE  ----------------------------------------->
     <section id="landingPage">
       <div class="landingTitles-desktop">
         <h1 class="title">Gigifilms</h1>
@@ -63,6 +58,7 @@
         <h3>casting . projects . art</h3>
       </div>
     </section>
+    <!-----------------------------------  OUR STORY PAGE  ----------------------------------------->
     <section id="ourStory">
       <img src="images/home/home_our_story.jpg" />
       <div class="ourStory-text-container">
@@ -81,6 +77,7 @@
       </div>
     </section>
     <br />
+    <!-----------------------------------  OUR WORKS  ----------------------------------------->
     <section id="ourProjects">
       <div class="ourProjects-text">
         <h3 class="project-title">Our Projects</h3>
@@ -99,6 +96,7 @@
       <a href="#" class="primaryactive">our projects</a>
     </section>
     <br />
+    <!-----------------------------------  CASTING PART  ----------------------------------------->
     <section id="casting">
       <div class="casting-text-container">
         <div class="casting-text">
@@ -117,9 +115,18 @@
       </div>
       <img src="images/home/home_casting.jpg" />
     </section>
+    <!-----------------------------------  LITTLE ENCOURAGMENT
+    
+    
+    
+    
+    
+    
+      ----------------------------------------->
     <div class="last-title">
       <h3>Let’s Create Together</h3>
     </div>
+    <!-----------------------------------  FOOTER   ----------------------------------------->
     <footer>
       <h3>GIGI</h3>
       <p>
