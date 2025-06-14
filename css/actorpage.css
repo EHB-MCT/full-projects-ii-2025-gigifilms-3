@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Integral";
+  src: url(/fonts/Fontspring-DEMO-integralcf-regular.otf);
+}
+
+@font-face {
+  font-family: "Integral-bold";
+  src: url(/fonts/Fontspring-DEMO-integralcf-bold.otf);
+}
+
+.mobileimage {
+    display: none;
+
+}
+
+/*profile image*/
+.imagecontainer {
+ background-color: cyan;
+ display: flex;
+ justify-content: end;
+ 
+}
+
+.desktopimage {
+  width: 30%;
+}
+
+.otherstuff {
+  font-size: 17px;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+nav {
+    background-color: black;
+}
+
+#portfolio {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: white; 
+}
+
+.container {
+    margin: 40px;
+}
+
+.inforow {
+  display: flex;
+  gap: 34%;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: -1.9%;
+  padding-left: 5%;
+}
+
+
+.inforow2 {
+  display: flex;
+  gap: 21%;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: -1.9%;
+  padding-left: 5%;
+}
+
+.infocolumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -1.9%;
+  padding-left: 5%;
+  gap: -20%;
+}
+
+.container h3 {
+    margin: 30px;
+    color: black;
+    font-family: "Integral-bold", sans-serif;
+    font-size: 48px;
+}
+.goback {
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 35px;
+}
+
+.wordlwidecentered h3 {
+  color: black;
+  font-family: "Integral-bold", sans-serif;
+  margin: 10px 70px;
+  font-size: 20px;
+}
+
+.wordlwidecentered p {
+    color: black;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    nav {
+    background-color: black;
+}
+
+#portfolio {
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: white; 
+}
+
+.container {
+    margin: 40px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-left: -20px;
+}
+
+.container h3 {
+margin: -20px;
+font-size: 24px
+
+}
+.goback {
+margin: -5px;
+}
+
+.wordlwidecentered {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wordlwidecentered h3 {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.wordlwidecentered p {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.desktopimage {
+    display: block;
+}
+.mobileimage {
+  display: block;
+}
+}
