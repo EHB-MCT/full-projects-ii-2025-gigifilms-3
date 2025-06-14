@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Become an actor - Gigifilms</title>
+		<link href="./css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="./css/styling.css" rel="stylesheet" type="text/css" />
+		<link href="./css/becomeanactor.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class="sidebar">
+					<li onclick="hideSidebar()">
+						<a href="#"
+							><img
+								src="images/icons/close_32dp_FFFB00_FILL0_wght400_GRAD0_opsz40.svg"
+						/></a>
+					</li>
+					<li><a href="#" class="primaryactive">home</a></li>
+					<li><a href="#" class="primaryactive">info</a></li>
+					<li><a href="#" class="primaryactive">our projects</a></li>
+					<li><a href="#" class="primaryactive">casting</a></li>
+					<li><a href="#" class="primaryactive">login</a></li>
+				</ul>
+				<ul>
+					<li><a href="#" class="logo">gigifilms</a></li>
+					<li><a href="#" class="primaryhover hideMobile">home</a></li>
+					<li><a href="#" class="primaryactive hideMobile">info</a></li>
+					<li><a href="#" class="primaryactive hideMobile">our projects</a></li>
+					<li><a href="#" class="primaryactive hideMobile">casting</a></li>
+					<li><a href="#" class="secondaryactive hideMobile">login</a></li>
+					<li onclick="showSidebar()" class="menu-button">
+						<a href="#"
+							><img
+								src="images/icons/menu_24dp_FFFB00_FILL0_wght400_GRAD0_opsz24.svg"
+						/></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section id="landingPageCasting">
+			<div class="landingTitles"></div>
+			<h2 class="landingTitle">Become</br>an actor</h2>
+		</section>
+		<section id="casting">
+			<p class="casting-text">At Gigi Films, we’re always looking for fresh faces and talented actors to bring stories to life. Whether you’re a seasoned pro or just starting out, this is your chance to join our creative family. Share your passion, show us your unique style, and take the first step towards your acting career with us!
+
+			</p>
+		</section>
+		<section class="ourtalents">
+            <div class="ourtalents-text">
+                <h2>STEP INTO THE SPOTLIGHT</h2>
+                <div class="filtercontainer">
+                    <p class="sort">Tell us about yourself, your experience, and why you want to act. No experience? No worries — we welcome all talent! Once you submit, our team will review your profile and reach out if there’s a match.</p>
+        </section>
+		<section class="fillinform">
+		<div class="formcontainer">
+    		<div class="input-pair">
+      			<label for="fname">First name</label>
+      			<input type="text" id="fname" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     			 <label for="lname">Last name</label>
+      			<input type="text" id="lname" name="lname" />
+   		 	</div>
+		</div>
+						<div class="formcontainer">
+    		<div class="input-pair">
+      		<label for="fname">Adress</label>
+      		<input type="text" id="fname" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     		 <label for="lname">Email</label>
+      		<input type="text" id="lname" name="lname" />
+   		 </div>
+			</div>
+						<div class="formcontainer">
+    		<div class="input-pair">
+      		<label for="fname">Phone number</label>
+      		<input type="text" id="fname" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     		 <label for="lname">Birthdate</label>
+      		<input type="text" id="lname" name="lname" />
+   		 </div>
+			</div>
+					<div class="formcontainer">
+    		<div class="input-pair">
+      			<label for="fname">Guardian's phone number<span>*</span></label>
+      			<input type="text" id="fname" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     			 <label for="lname">Gender</label>
+      			<input type="text" id="lname" name="lname" />
+   		 	</div>
+		</div>
+				<div class="formcontainer">
+    		<div class="input-pair">
+      			<label for="fname">Ethnicity</label>
+      			<input type="text" id="fname" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     			 <label for="lname">Languages</label>
+      			<input type="text" id="lname" name="lname" />
+   		 	</div>
+		</div>
+				<div class="formcontainer">
+    		<div class="input-pair">
+      			<label for="fname">Hobby's</label>
+      			<input type="text" id="fname" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     			 <label for="lname">Talents</label>
+      			<input type="text" id="lname" name="lname" />
+   		 	</div>
+		</div>
+				<div class="formcontainer">
+    		<div class="input-pair">
+      			<label for="fname">Eyecolor</label>
+      			<input type="text" id="fname" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     			 <label for="lname">Haircolor</label>
+      			<input type="text" id="lname" name="lname" />
+   		 	</div>
+		</div>
+				<div class="formcontainer">
+    		<div class="input-pair">
+      			<label for="fname">Height</label>
+      			<input type="text" id="fname" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     			 <label for="lname">Weight</label>
+      			<input type="text" id="lname" name="lname" />
+   		 	</div>
+		</div>
+		</section>
+		    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+	</body>
+</html>
