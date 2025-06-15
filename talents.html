@@ -1,102 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Casting - Gigifilms</title>
-		<link href="./css/reset.css" rel="stylesheet" type="text/css" />
-		<link href="./css/styling.css" rel="stylesheet" type="text/css" />
-		<link href="./css/talents.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<header>
-              ><img
-                src="images/icons/close_32dp_FFFB00_FILL0_wght400_GRAD0_opsz40.svg"
-            /></a>
-          </li>
-          <li><a href="index.html" class="logo">GIGIfilms</a></li>
-          <li><a href="index.html" class="primaryactive">home</a></li>
-          <li><a href="casting.html" class="primaryactive">casting</a></li>
-          <li>
-            <a href="ourProjects.html" class="primaryactive">our projects</a>
-          </li>
-          <li><a href="#" class="primaryactive">about us</a></li>
-          <li><a href="login.html" class="primaryactive">login</a></li>
-        </ul>
-        <ul>
-          <li><a href="index.html" class="logo">GIGIfilms</a></li>
-          <li><a href="index.html" class="primaryhover hideMobile">home</a></li>
-          <li>
-            <a href="casting.html" class="primaryactive hideMobile">casting</a>
-          </li>
-          <li>
-            <a href="ourProjects.html" class="primaryactive hideMobile"
-              >our projects</a
-            >
-          </li>
-          <li><a href="#" class="primaryactive hideMobile">about us</a></li>
-          <li>
-            <a href="login.html" class="secondaryactive hideMobile">login</a>
-          </li>
-          <li onclick="showSidebar()" class="menu-button">
-            <a href="#"
-              ><img
-                src="images/icons/menu_24dp_FFFB00_FILL0_wght400_GRAD0_opsz24.svg"
-            /></a>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talents</title>
+    <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./css/styling.css" rel="stylesheet" type="text/css" />
+    <link href="./css/talents.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="sidebar-active" />
+        <a href="index.html" class="logo logo-mobile">GIGIfilms</a>
+        <a
+          href="login.html"
+          class="primaryactive logo-mobile login-mobile login"
+          >Login</a
+        >
+        <label for="sidebar-active" class="menu-icon"
+          ><img
+            src="images/icons/menu_24dp_FFFB00_FILL0_wght400_GRAD0_opsz24.svg"
+            width="30"
+            height="30"
+        /></label>
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+          <label for="sidebar-active" class="close-icon">
+            <img
+              class="close-icon"
+              src="images/icons/close_32dp_FFFB00_FILL0_wght400_GRAD0_opsz40.svg"
+          /></label>
+          <a href="index.html" class="logo">GIGIfilms</a>
+          <a href="index.html" class="primaryactive nav-a">home</a>
+          <a href="aboutUs.html" class="primaryactive nav-a">about us</a>
+
+          <a href="ourWorks.html" class="primaryactive nav-a">our Works</a>
+
+          <a href="talents.html" class="primaryactive nav-a youre-here"
+            >Talents</a
+          >
+
+          <a href="casting.html" class="primaryactive nav-a">casting calls</a>
+
+          <a href="login.html" class="primaryactive nav-a">Register</a>
+          <a href="login.html" class="primaryactive nav-a login">Login</a>
+        </div>
       </nav>
-		</header>
-		<section id="landingPageCasting">
-			<div class="landingTitles"></div>
-			<h2 class="landingTitle">CASTING</h2>
-		</section>
-		<section id="casting">
-			<p class="casting-text">
-				GIGI Casting focuses on streetcasting. Aiming for more diversity and
-				authenticity on screen. We guide new talent before set, support talent
-				on set and counsel talent after set in taking the next steps towards an
-				artistic practice.
-			</p>
-		</section>
-		<section class="ourtalents">
-            <div class="ourtalents-text">
-                <h2>Our Talents</h2>
-                <div class="filtercontainer">
-                    <h3 class="sort">SORT ALPHABETICALLY</h3>
-                    <button class="filterbutton">DETAILED SORTING</button>
-                </div>
-            </div>
-            <div class="ourtalentscontainer">
-                <img src="images/casting/casting_talent_1.jpg">
-                <img src="images/casting/casting_talent_2.jpg">
-                <img src="images/casting/casting_talent_3.jpg">
-                <img src="images/casting/casting_talent_4.jpg">
-                <img src="images/casting/casting_talent_5.jpg">
-            </div>
-            <div class="ourtalentscontainer">
-                <img src="images/casting/casting_talent_6.jpg">
-                <img src="images/casting/casting_talent_7.jpg">
-                <img src="images/casting/casting_talent_8.jpg">
-                <img src="images/casting/casting_talent_9.jpg">
-                <img src="images/casting/casting_talent_10.jpg">
-            </div>
-            <div class="pages">
-                <h3>←</h3> <h3>previous</h3>
-                <a href="#" class="pagenumber" id="page">1</a>
-                <h3 class="number2" id="page">2</h3>
-                <h3>next</h3> <h3>→</h3>
-            </div>
-        </section>
-		    <script>
-      function showSidebar() {
-        const sidebar = document.querySelector(".sidebar");
-        sidebar.style.display = "flex";
-      }
-      function hideSidebar() {
-        const sidebar = document.querySelector(".sidebar");
-        sidebar.style.display = "none";
-      }
-    </script>
-	</body>
+    </header>
+    <section id="landingPage-talents">
+      <h2>Talents</h2>
+      <p>
+        On this page, we proudly present some of the actors we’ve discovered and
+        supported—individuals who have already brought raw presence and
+        originality to short films, features, and other creative projects. These
+        are talents who stepped into the industry with little or no previous
+        experience, and whose performances reflect the spirit of what GIGIFilms
+        Casting stands for: truth, individuality, and impact. From compelling
+        lead roles to powerful appearances in ensemble casts, each of these
+        actors represents the potential of streetcasting when guided with care
+        and intention.
+      </p>
+    </section>
+    <section class="Faces-of-gigifilms">
+      <h3 class="titel-faces">Faces of GIGIFilms</h3>
+      <div class="talents-container">
+        <div class="image-box">
+          <img src="images/casting/casting_talent_1.jpg" />
+          <div class="image-name">
+            <h3>Pitbull Dale</h3>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="images/casting/casting_talent_2.jpg" />
+          <div class="image-name">
+            <h3>Malik Anders</h3>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="images/casting/casting_talent_3.jpg" />
+          <div class="image-name">
+            <h3>Noah Mensah</h3>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="images/casting/casting_talent_4.jpg" />
+          <div class="image-name">
+            <h3>Sofia Reyes</h3>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="images/casting/casting_talent_5.jpg" />
+          <div class="image-name">
+            <h3>Mira Okoye</h3>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="images/casting/casting_talent_6.jpg" />
+          <div class="image-name">
+            <h3>Imane Bouchra</h3>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="images/casting/casting_talent_7.jpg" />
+          <div class="image-name">
+            <h3>Zahra Haddad</h3>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="images/casting/casting_talent_8.jpg" />
+          <div class="image-name">
+            <h3>Elijah Costa</h3>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="images/casting/casting_talent_9.jpg" />
+          <div class="image-name">
+            <h3>Jonas Leclerc</h3>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="images/casting/casting_talent_10.jpg" />
+          <div class="image-name">
+            <h3>Aya Novak</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="call-signin">
+      <h3>Think you’ve got something real to bring to the screen?</h3>
+      <p>
+        We’re always looking for fresh faces, unique energies, and untold
+        stories. No experience needed—just presence, curiosity, and a
+        willingness to step in front of the camera.
+      </p>
+      <a href="login.html" class="secondaryactive">Join us</a>
+    </div>
+    <footer>
+      <h3>GIGI</h3>
+      <p>
+        © GIGI Films — Casting . stories from real life. Made in Brussels with
+        love, guts . good light.
+      </p>
+      <div class="contact">
+        <h3>Contacts</h3>
+        <p>zohra@gigifilms.be</p>
+        <p>romy@gigifilms.be</p>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -1,210 +1,137 @@
-.landingTitle {
-  display: flex;
-  justify-content: end;
-  font-size: 112px;
-  margin-bottom: 54px;
-  margin-right: 70px;
-}
-
-.filterbutton {
-  font-family: "Integral", sans-serif;
-  color: black;
-  text-decoration: none;
-  border: 3px solid;
-  border-radius: 40px;
-  padding: 10px 25px;
-  border-color: black;
-}
-
-.filterbutton:hover {
-  background-color: black;
-  color: white;
-}
-
-.pagenumber {
-  font-family: "Integral", sans-serif;
-  font-size: 18px;
-  color: black;
-  text-decoration: none;
-  border: 3px solid;
-  border-radius: 40px;
-  padding: 7px 15px;
-  border-color: black;
-}
-
-.number2 {
-  font-size: 18px;
-  padding-top: 5px;
-}
-
-.pages {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: flex-end;
-}
-
-.menu-button {
-  display: none;
-}
-@media (max-width: 800px) {
-  .hideMobile {
-    display: none;
-  }
-  .menu-button {
-    display: block;
-  }
-
-  .ourtalentscontainer {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .ourtalentscontainer img {
-    width: 68%;
-  }
-
-  .filterbutton {
-    margin: 13px;
-    font-size: 1px;
-  }
-
-  .landingTitle {
-    margin-right: 10px;
-    justify-content: end;
-    font-size: 58px;
-  }
-
-  #landingPageCasting {
-    background-position: 10%;
-  }
-
-  .ourtalents-text h2 {
-    font-size: 60px;
-  }
-
-  .filtercontainer {
-    justify-content: space-around;
-  }
-
-  .filtercontainer h3 {
-    font-size: 14px;
-  }
-
-  .filterbutton {
-    font-size: 10px;
-  }
-
-  .pages h3,
-  .pagenumber,
-  .number2 {
-    font-size: 10px;
-    padding: 2px 6px;
-    margin: 4px;
-  }
-}
-/********************************************************* LANDING PAGE ***************************************/
-#landingPageCasting {
+#landingPage-talents {
   min-height: 100vh;
   background-image: url(../images/casting/casting_landing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 10%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.landingTitles {
-  margin-bottom: 60px;
+#landingPage-talents h2 {
+  font-size: 8vh;
+  text-align: right;
+  margin-bottom: 30px;
+  margin-right: 2%;
 }
 
-/********************************************************* OUR STORY  ******************************************************************/
-#casting {
-  background-color: white;
+#landingPage-talents p {
+  background-color: black;
+  font-size: 14px;
+  padding: 50px;
+}
+
+@media (min-width: 750px) {
+  #landingPage-talents h2,
+  #landingPage-talents p {
+    display: flex;
+    justify-content: end;
+    font-size: 12vh;
+    margin-bottom: 50px;
+  }
+  #landingPage-talents p {
+    font-size: 16px;
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  #landingPage-talents h2 {
+    font-size: 12vw;
+  }
+}
+
+.Faces-of-gigifilms {
+  color: black;
+}
+.titel-faces {
+  font-size: 7vh;
+  margin: 20px;
+}
+
+.talents-container {
   display: flex;
-  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  margin: 50px 30px;
 }
 
-.casting-title {
-  padding: 40px;
-  color: black;
+.image-box {
+  position: relative;
 }
 
-.casting-text {
-  padding: 40px;
-  color: black;
-  font-weight: 100px;
-}
-
-.ourtalents {
-  padding: 40px;
-  color: black;
-}
-
-.sort {
-  padding-top: 90px;
-}
-
-.ourStory-text h3,
-.ourProjects-text h3,
-.casting-text h3 {
-  margin-bottom: 20px;
-}
-.ourStory-text p,
-.casting-text p {
-  margin-bottom: 50px;
-}
-
-#ourStory img,
-#casting img {
+.image-box img {
   width: 100%;
+  display: block;
 }
 
-.filtercontainer h3 {
-  font-size: 16px;
+.image-name {
+  color: #fffb00;
+  font-size: 2rem;
+  width: 90%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.5s;
 }
 
-.filtercontainer button {
-  font-size: 16px;
+.image-name h3 {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  font-size: 2rem;
+}
+.image-name:hover {
+  opacity: 1;
 }
 
-.pagenumber {
-  font-family: "Integral", sans-serif;
-  font-size: 18px;
+@media (min-width: 750px) {
+  .titel-faces {
+    font-size: 7vw;
+    margin: 50px;
+  }
+
+  .talents-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 100px;
+  }
+}
+.call-signin {
   color: black;
-  text-decoration: none;
-  border: 3px solid;
-  border-radius: 40px;
-  padding: 7px 15px;
-  border-color: black;
+  padding: 30px;
 }
 
-.number2 {
-  font-size: 18px;
-  padding-top: 5px;
+.call-signin h3 {
+  margin-bottom: 30px;
 }
-.filtercontainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+.call-signin p {
+  margin-bottom: 30px;
 }
 
-.ourtalentscontainer {
-  display: flex;
-  flex: wrap;
-  justify-content: center;
-  align-content: flex-start;
-  gap: 3em;
-  margin-bottom: 50px;
-  margin-top: 50px;
+.call-signin a {
+  background-color: black;
+  color: #fffb00;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  width: 25%;
+}
+.call-signin a:hover {
+  background-color: #fffb00;
+  color: black;
 }
 
-.pages {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: flex-end;
-}
-
-.pages {
-  /*   border: 2px solid black; */
+@media (min-width: 800px) {
+  .call-signin {
+    width: 50%;
+    margin: 100px;
+  }
 }
