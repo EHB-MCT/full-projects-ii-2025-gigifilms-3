@@ -173,6 +173,33 @@ nav a:hover {
   font-size: 22px;
 }
 
+.submitrequest {
+	display: flex;
+	justify-content: center;
+}
+
+.photocontainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 7em;
+	margin: 8%;
+	
+}
+
+.casting-text {
+	padding: 40px;
+	color: black;
+	font-weight: 100px;
+	width: 60%;
+}
+
+.sort {
+	margin-top: 30px;
+	width: 40%;
+}
+
 @media (max-width: 800px) {
 	.hideMobile {
 		display: none;
@@ -362,12 +389,7 @@ font-size: 13px;
 	color: black;
 }
 
-.casting-text {
-	padding: 40px;
-	color: black;
-	font-weight: 100px;
-	width: 40%;
-}
+
 
 .submitphotos h2 {
 	color: black;
@@ -401,11 +423,16 @@ font-size: 13px;
 	font-size: 16px;
 }
 
+#photos h2 {
+	font-size: 40px;
+	margin: 40px;
 
+}
 
 .sort2 {
 	color: black;
-
+	margin: 40px;
+	width: 45%;
 }
 
 .pagenumber {
