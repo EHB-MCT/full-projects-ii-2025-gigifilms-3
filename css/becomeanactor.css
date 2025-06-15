@@ -99,11 +99,7 @@ nav a:hover {
 	padding-top: 5px;
 }
 
-.sort {
-	padding-top: 90px;
-	font-family: "Roboto", sans-serif;
-	width: 49.5%;
-}
+
 
 .pages {
 	display: flex;
@@ -119,11 +115,62 @@ nav a:hover {
 	font-size: 40px;
 }
 
+.photos h2 {
+	font-size: 40px;
+}
+
+
 .input-pair label {
 	color: black;
 	font-family: "roboto", sans-serif;
 	font-weight: normal;
 	margin: 18%;
+}
+
+#Gender {
+	border-radius: 45px;
+	width: 80%;
+	margin-right: 90px;
+}
+#Weight{
+	border-radius: 45px;
+	width: 80%;
+}
+
+#Height {
+	border-radius: 45px;
+	width: 80%;
+	margin-left: 30px;
+}
+
+
+#birthday {
+	width: 85%;
+	margin-right: 30px;
+}
+
+.textaboutyourself {
+	margin: 50px;
+}
+
+.input-pair p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.uploadimage input {
+	color: black;
+}
+
+.buttonjobs2 {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 18px 25px;
+  border-radius: 54px; 
+  cursor: pointer;
+  font-family: "Integral", sans-serif;
+  font-size: 22px;
 }
 
 @media (max-width: 800px) {
@@ -171,6 +218,13 @@ nav a:hover {
 		justify-content: space-around;
 	}
 
+.submitrequest {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: -20%;
+}
+
 	.filtercontainer h3 {
 		font-size: 14px;
 	}
@@ -203,6 +257,7 @@ nav a:hover {
 	.fillinform {
 		display: flex;
 		flex-direction: column;
+		justify-content: flex-start;
 		gap: 1.8em;
 	}
 
@@ -213,6 +268,69 @@ nav a:hover {
 
 .input-pair label {
 font-size: 13px;
+}
+
+.sort {
+	padding-top: 50px;
+	font-family: "Roboto", sans-serif;
+
+}
+
+.filtercontainer {
+	width: 130%;
+}
+#Gender {
+	border-radius: 45px;
+	width: 80%;
+	margin-right: 90px;
+}
+#Weight{
+	border-radius: 45px;
+	width: 96%;
+}
+
+#Height {
+	border-radius: 45px;
+	width: 80%;
+	margin-left: 30px;
+}
+
+
+#birthday {
+	width: 85%;
+	margin-right: 40px;
+}
+
+.input-pair p {
+
+	margin: 46px;
+}
+
+.textaboutyourself {
+	margin-top: -30px;
+}
+.submittext {
+	margin-top: -10%;
+}
+.sort2 {
+	color: black;
+	margin: 40px;
+	width: 95%;
+}
+
+.submitphotos h2 {
+	font-size: 40px;
+	padding: 40px;
+	color: black;
+}
+
+.photocontainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 3em;
+	margin: 20%;
+	
 }
 }
 /********************************************************* LANDING PAGE ***************************************/
@@ -251,6 +369,10 @@ font-size: 13px;
 	width: 40%;
 }
 
+.submitphotos h2 {
+	color: black;
+}
+
 .ourtalents {
 	padding: 40px;
 	color: black;
@@ -277,6 +399,13 @@ font-size: 13px;
 
 .filtercontainer button {
 	font-size: 16px;
+}
+
+
+
+.sort2 {
+	color: black;
+
 }
 
 .pagenumber {

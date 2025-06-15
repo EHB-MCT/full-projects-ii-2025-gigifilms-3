@@ -165,7 +165,8 @@ nav {
 }
 
 
-@media (max-width: 800px) {
+
+@media (max-width: 400px) {
     nav {
     background-color: black;
 }
@@ -222,7 +223,7 @@ margin: -5px;
 }
 
 
-.profilephoto {
+.profilephoto img{
 display: none;
 }
 }

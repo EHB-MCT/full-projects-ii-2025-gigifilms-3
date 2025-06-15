@@ -53,7 +53,7 @@
             <div class="ourtalents-text">
                 <h2>STEP INTO THE SPOTLIGHT</h2>
                 <div class="filtercontainer">
-                    <p class="sort">Tell us about yourself, your experience, and why you want to act. No experience? No worries — we welcome all talent! Once you submit, our team will review your profile and reach out if there’s a match.</p>
+                    <p class="sort">Tell us about yourself, your experience, and why you want to act. No experience? No worries — we welcome all talent! Once you submit, our team will review your profile and reach out if there’s a match.</p> </div>
         </section>
 		<section class="fillinform">
 		<div class="formcontainer">
@@ -82,8 +82,8 @@
       		<input type="text" id="fname" name="fname" />
     		</div>
     		<div class="input-pair">
-     		 <label for="lname">Birthdate</label>
-      		<input type="text" id="lname" name="lname" />
+  <label for="birthday">Birthdate:</label>
+  <input type="date" id="birthday" name="birthday">
    		 </div>
 			</div>
 					<div class="formcontainer">
@@ -92,8 +92,12 @@
       			<input type="text" id="fname" name="fname" />
     		</div>
     		<div class="input-pair">
-     			 <label for="lname">Gender</label>
-      			<input type="text" id="lname" name="lname" />
+  <label for="gender">Gender</label>
+  <select id="Gender" name="gender">
+    <option value="M">Male</option>
+    <option value="F">Female</option>
+    <option value="X">X</option>
+  </select>
    		 	</div>
 		</div>
 				<div class="formcontainer">
@@ -128,14 +132,74 @@
 		</div>
 				<div class="formcontainer">
     		<div class="input-pair">
-      			<label for="fname">Height</label>
-      			<input type="text" id="fname" name="fname" />
+  <label for="Height">Height</label>
+  <select id="Height" name="weight">
+		<option>--</option>
+    <option>1m20-1m25</option>
+    <option>1m30-1m25</option>
+	<option>1m40-1m25</option>
+	<option>1m50-1m25</option>
+	<option>1m60-1m25</option>
+	<option>1m70-1m25</option>
+	<option>1m80-1m25</option>
+	<option>1m90-1m25</option>
+	<option>2m00-1m25</option>
+  </select>
     		</div>
     		<div class="input-pair">
-     			 <label for="lname">Weight</label>
-      			<input type="text" id="lname" name="lname" />
+  <label for="Weight">Weight</label>
+  <select id="Weight" name="weight">
+	<option>--</option>
+    <option>15-20kg</option>
+    <option>25-30kg</option>
+    <option>35-40kg</option>
+	<option>45-50kg</option>
+	<option>55-60kg</option>
+	<option>65-70kg</option>
+	<option>75-80kg</option>
+	<option>85-90kg</option>
+	<option>95-100kg</option>
+
+  </select>
    		 	</div>
+
+			
 		</div>
+						
+		<div class="input-pair">
+			  <p class="aboutyou">Tell us about yourself</p>
+			  <textarea class="textaboutyourself" name="message" rows="10" cols="45"></textarea>
+		</div>
+
+		</section>
+
+
+		<section id="photos">
+			<div class="submitphotos">
+			<h2>SUBMIT YOUR PICTURES</h2>
+			<div class="submittext">
+							<p class="sort2">Tell us about yourself, your experience, and why you want to act. No experience? No worries — we welcome all talent! Once you submit, our team will review your profile and reach out if there’s a match.</p>
+			</div>
+			</div>
+
+			<div class="photocontainer">
+				<div class="uploadimage">
+					<img src="/images/become_an_actor/become_an_actor_landing_syp_1.jpg">
+					  <input type="file" id="image" name="image">
+				</div>
+				<div class="uploadimage">
+					<img src="/images/become_an_actor/become_an_actor_landing_syp_2.jpg">
+					  <input type="file" id="image" name="image">
+				</div>
+				<div class="uploadimage">
+					<img src="/images/become_an_actor/become_an_actor_landing_syp_3.jpg">
+					  <input type="file" id="image" name="image">
+				</div>
+				
+			</div>
+							<div class="submitrequest">
+						<a href="#" class="buttonjobs2">send in form</a>
+					</div>
 		</section>
 		    <script>
       function showSidebar() {
