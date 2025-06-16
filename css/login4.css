@@ -412,3 +412,38 @@ form {
     margin: -20px;
   }
 }
+
+
+
+@media (max-width: 850px) {
+  .containerhome {
+  margin-top: -3em;
+}
+}
+
+
+@media (max-width: 370px) {
+  .containerhome {
+  margin-top: -3em;
+}
+
+.rectangle h2 {
+  width: 60%;
+  margin-right: 9em;
+  font-size: 20px;
+}
+}
+
+
+@media (max-width: 380px) {
+  .containerhome {
+  margin-top: -1em;
+}
+
+.rectangle h2 {
+  width: 60%;
+  margin-right: 14em;
+  font-size: 20px;
+}
+
+}

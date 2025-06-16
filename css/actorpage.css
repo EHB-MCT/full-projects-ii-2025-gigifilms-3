@@ -164,7 +164,17 @@ nav {
   width: 150%;
 }
 
+.ethnicity {
+  margin-left: 6.6em;
+}
 
+.hair {
+  margin-left: 5em;
+}
+
+.kgsize {
+  margin-left: 5.5em;
+}
 
 @media (max-width: 400px) {
     nav {
@@ -226,4 +236,21 @@ margin: -5px;
 .profilephoto img{
 display: none;
 }
+
+
+}
+
+
+
+@media (max-width: 450px) {
+
+  .mobileimage {
+    display: block;
+    margin-left: 2.2em;
+    width: 80%;
+  }
+
+  .profilephoto {
+  display: none;
+  }
 }

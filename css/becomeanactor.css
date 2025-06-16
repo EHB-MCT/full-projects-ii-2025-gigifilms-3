@@ -169,6 +169,7 @@ nav a:hover {
   cursor: pointer;
   font-family: "Integral", sans-serif;
   font-size: 22px;
+  margin-bottom: 6em;
 }
 
 .submitrequest {
@@ -218,11 +219,11 @@ nav a:hover {
 }
 
 label.numbers {
-	margin: -6em;
+	margin: -7em;
 }
 
 #Gender {
-	margin-left: 2em;
+	margin-left: 2.3em;
 	width: 135%;
 	border-width: 2px;
 }
@@ -277,7 +278,7 @@ label.namelast {
 
 	.input-pair input {
 		margin-left: 20%;
-		width: 225px;
+		width: 17.737em;
 		border-radius: 29px;
 	}
 	

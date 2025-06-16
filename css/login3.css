@@ -417,3 +417,29 @@ form {
   
   
 }
+
+
+@media (max-width: 655px) {
+  
+  .smallform,
+  .smallform2 {
+    margin-left: -1em;
+  }
+}
+
+
+@media (max-width: 875px) {
+
+  .submitrequest {
+    margin-top: -5em;
+  }
+
+}
+
+@media (max-width:975px) {
+
+  .submitrequest {
+    margin-top: -5em;
+  }
+
+}
