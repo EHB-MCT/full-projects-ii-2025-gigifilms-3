@@ -1,0 +1,128 @@
+.ourWorks-landing {
+  min-height: 100vh;
+  background-image: url(../images/our_projects/our-projects-landing.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.ourWorks-landing h2 {
+  font-size: 8vh;
+  margin-bottom: 50px;
+  margin-left: 2%;
+}
+
+@media (min-width: 800px) {
+  .ourWorks-landing h2 {
+    font-size: 15vh;
+  }
+}
+
+.Info,
+.Putain,
+.Skiff,
+.AnaYek {
+  color: black;
+  padding: 50px;
+  font-size: 14px;
+  display: block;
+}
+
+.Info p,
+.Putain p,
+.Skiff p,
+.AnaYek p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.Skiff p {
+  color: #fffb00;
+}
+.Putain img,
+.Skiff img,
+.AnaYek img {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+.Skiff {
+  background-color: black;
+}
+
+@media (min-width: 850px) {
+  .Info,
+  .Putain,
+  .Skiff,
+  .AnaYek {
+    color: black;
+    padding: 50px;
+    font-size: 14px;
+    display: flex;
+  }
+  .Info p,
+  .Putain p,
+  .Skiff p,
+  .AnaYek p {
+    margin-bottom: 50px;
+    font-size: 16px;
+  }
+  .Info {
+    font-size: 16px;
+    width: 45%;
+  }
+
+  .discription-Putain {
+    order: 1;
+    padding: 20px;
+    width: 50%;
+    margin-left: 150px;
+  }
+
+  .Putain {
+    flex-direction: row-reverse;
+  }
+
+  .image-description-Putain {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .Putain img,
+  .Skiff img,
+  .AnaYek img {
+    display: block;
+    width: 75%;
+    margin: 0px auto;
+    margin-bottom: 30px;
+  }
+  .Putain img {
+    margin-right: 150px;
+  }
+}
+
+@media (min-width: 800px) {
+  .Skiff img {
+    width: 40%;
+  }
+  .Skiff-description {
+    width: 30%;
+    margin: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Skiff img {
+    width: 40%;
+    margin: 50px;
+  }
+  .Skiff-description {
+    width: 30%;
+    margin-left: 0px;
+  }
+}

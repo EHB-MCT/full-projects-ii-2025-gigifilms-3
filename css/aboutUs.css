@@ -18,7 +18,7 @@
 
 @media (min-width: 800px) {
   .landing-aboutUs h2 {
-    font-size: 20vh;
+    font-size: 15vh;
   }
 }
 /**************************************************** WHO ARE WE ******************************************/
@@ -26,12 +26,12 @@
 .who {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
+  width: 100%;
   align-items: stretch;
+  background-color: black;
 }
 .image-who {
-  max-width: 40%;
-  background-image: url();
+  max-width: 100%;
 }
 
 .who .text-container {
@@ -50,37 +50,72 @@
 
 @media (min-width: 800px) {
   .who img {
-    width: 35%;
+    width: 30%;
   }
   .who .text-container {
-    max-width: 40%;
-    padding: 150px;
+    max-width: 30%;
+    padding: 100px;
+    margin-left: 50px;
+  }
+  .who p {
+    font-size: 16px;
   }
 }
 
 /**************************************************** WHERE ARE WE ******************************************/
-
-.One-vision {
-  background-color: brown;
+.text-container-oneV {
+  background-color: black;
+  padding: 50px;
+}
+.One-vision img {
+  width: 80%;
+  display: block;
+  margin: 50px auto;
 }
 
+.text-container-oneV h3 {
+  margin-bottom: 50px;
+}
+.text-container-oneV p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+@media (min-width: 800px) {
+  .One-vision {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .One-vision img {
+    width: 30%;
+    margin: 50px 100px;
+    padding: 0;
+  }
+  .text-container-oneV p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 50%;
+    margin: 20px auto;
+  }
+  .One-vision h3 {
+    margin: auto;
+    text-align: center;
+  }
+}
 /**************************************************** PORTFOLIO ******************************************/
 
 .portfolio {
   display: flex;
   flex-wrap: wrap;
 }
-
-.portfolio div {
-  margin-bottom: 30px;
-}
 .portfolio img {
   width: 70%;
-  padding: 50px;
+  padding: 20px;
 }
 .portfolio p {
-  padding: 15px 50px;
+  padding: 20px 50px;
   font-size: 14px;
+  padding-bottom: 50px;
 }
 .Zohra p {
   color: black;
@@ -94,13 +129,14 @@
     width: 35%;
     display: block;
     margin: 0 auto;
-    padding: 0;
+    padding: 20px;
   }
   .portfolio div {
     width: 50%;
   }
   .portfolio p {
     font-size: 1rem;
-    padding: 100px 150px;
+    padding: 50px 150px;
+    margin: 0 auto;
   }
 }

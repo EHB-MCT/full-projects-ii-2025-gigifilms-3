@@ -1,3 +1,15 @@
+#landingCastingProj h2 {
+  font-size: 18vw;
+  margin-bottom: 50px;
+  margin-left: 2%;
+}
+
+@media (min-width: 800px) {
+  #landingCastingProj h2 {
+    font-size: 12vw;
+  }
+}
+
 /*************************SECTIONS*************************/
 
 #landingCastingProj {
@@ -5,148 +17,142 @@
   background-image: url(/images/casting_projects/casting_projects_landing.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 75%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-#projectCall {
+#projectCall p {
   color: black;
+  width: 90%;
+  margin: 0 "auto";
+  padding: 50px 20px;
+}
+
+@media (min-width: 800px) {
+  #projectCall p {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+  }
+}
+
+#project-filter h3 {
+  color: black;
+  font-size: 5vh;
+  margin: 20px;
+}
+
+.projects-buttons h4 {
+  color: black;
+  margin: 20px;
+}
+
+.project-call {
+  background-color: black;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 40px;
+}
+
+.project-call:hover {
+  transition: 0.75s;
+  transform: scale(1.05);
+}
+
+.project-call p {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+#list h4 {
+  margin-bottom: 10px;
+}
+
+.project-call img {
   width: 100%;
-  padding-top: 8%;
-  padding-bottom: 8%;
+  margin: 20px 0;
 }
 
-#projectList {
+@media (min-width: 750px) {
+  .project-call img {
+    width: 50%;
+    margin: 20px 0;
+  }
+  .project-call {
+    display: flex;
+    justify-content: space-around;
+  }
+  .projectInfo {
+    width: 40%;
+  }
+}
+@media (min-width: 900px) {
+  .project-call img {
+    width: 30%;
+  }
+  .project-call {
+    width: 80%;
+    margin: 50px auto;
+  }
+  .projectInfo {
+    padding: 30px;
+  }
+  .project-call p {
+    font-size: 16px;
+  }
+}
+
+.buttons {
+  font-family: "integral-bold";
+}
+.buttons a,
+#pageSwitch a {
+  font-size: 14px;
+  margin-left: 20px;
+  font-family: "Integral";
   color: black;
-}
-/**********************RESPONSIVE*******************/
-
-/**************************DESKTOP*************/
-
-@media (min-width: 1024px) {
-  .landingText-mobile {
-    display: none;
-  }
-  .landingText-desktop {
-    display: block;
-    margin-bottom: 60px;
-  }
-  .landingText-desktop h1 {
-    font-size: 10vw;
-    margin-bottom: 10px;
-  }
-  .landingText-desktop h3 {
-    font-size: 4vw;
-  }
-
-  .projectText-mobile {
-    display: none;
-  }
-
-  #projectCall {
-    width: 700px;
-    margin-left: 15px;
-  }
-
-  #projectList,
-  h3 {
-    font-size: 5vw;
-  }
-
-  .projectHeader-mobile {
-    display: none;
-  }
-
-  #projectList,
-  h2 {
-    font-size: 1.5vw;
-    margin-top: 25px;
-    display: inline;
-  }
-
-  .projectHeaderButtons {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .projectHeaderButtons,
-  a {
-    text-decoration: none;
-    color: black;
-    display: flex;
-    padding-left: 20px;
-    padding-right: 25px;
-  }
+  text-decoration: none;
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-between;
+.buttons a:hover {
+  text-decoration: underline;
 }
 
-/*****************MOBILE*****************/
-
-@media (max-width: 1024px) {
-  .landingText-mobile {
-    display: block;
-  }
-  .landingText-desktop {
-    display: none;
-    margin-bottom: 60px;
-  }
-  .landingText-desktop h1 {
-    font-size: 15vw;
-    margin-bottom: 50px;
-  }
-  .landingText-desktop h3 {
-    font-size: 4vw;
-  }
-
-  #landingCastingProj {
-    background-position: 75% 25%;
-  }
-
-  .projectText-desktop {
-    display: none;
-  }
-
-  #projectCall {
-    width: 350px;
-    margin-left: 15px;
-  }
-
-  .projectHeader-desktop {
-    display: none;
-  }
-
-  .projectHeader-mobile {
-    font-size: 1vw;
-  }
-
-  #projectList,
-  h2 {
-    font-size: 3vw;
-    margin-top: 25px;
-  }
-
-  .projectHeaderButtons {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .projectHeaderButtons,
-  a {
-    text-decoration: none;
-    color: black;
-    display: flex;
-    padding-left: 20px;
-    padding-right: 25px;
-  }
+#pageSwitch {
+  display: none;
+}
+.show-more {
+  display: block;
+  text-align: center;
+  font-family: "Integral";
+  font-size: 14px;
+  color: #fffb00;
+  background-color: black;
+  text-decoration: none;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 40px;
+  padding: 10px 25px;
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-between;
+@media (min-width: 750px) {
+  .buttons {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .buttons h4 {
+    margin: 0;
+  }
+  .show-more {
+    display: none;
+  }
+  #pageSwitch {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
 }

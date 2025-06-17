@@ -16,8 +16,11 @@
   margin-right: 2%;
 }
 
-#landingPage-talents p {
-  background-color: black;
+.info-talents p {
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
   font-size: 14px;
   padding: 50px;
 }
@@ -27,7 +30,7 @@
   #landingPage-talents p {
     display: flex;
     justify-content: end;
-    font-size: 12vh;
+    font-size: 15vh;
     margin-bottom: 50px;
   }
   #landingPage-talents p {

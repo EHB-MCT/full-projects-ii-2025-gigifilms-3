@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Become an actor - Gigifilms</title>
+		<link href="./css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="./css/styling.css" rel="stylesheet" type="text/css" />
+		<link href="./css/becomeanactor.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class="sidebar">
+					<li onclick="hideSidebar()">
+						<a href="#"
+							><img
+								src="images/icons/close_32dp_FFFB00_FILL0_wght400_GRAD0_opsz40.svg"
+						/></a>
+					</li>
+					<li><a href="#" class="primaryactive">home</a></li>
+					<li><a href="#" class="primaryactive">info</a></li>
+					<li><a href="#" class="primaryactive">our projects</a></li>
+					<li><a href="#" class="primaryactive">casting</a></li>
+					<li><a href="#" class="primaryactive">login</a></li>
+				</ul>
+				<ul>
+					<li><a href="#" class="logo">gigifilms</a></li>
+					<li><a href="#" class="primaryhover hideMobile">home</a></li>
+					<li><a href="#" class="primaryactive hideMobile">info</a></li>
+					<li><a href="#" class="primaryactive hideMobile">our projects</a></li>
+					<li><a href="#" class="primaryactive hideMobile">casting</a></li>
+					<li><a href="#" class="secondaryactive hideMobile">login</a></li>
+					<li onclick="showSidebar()" class="menu-button">
+						<a href="#"
+							><img
+								src="images/icons/menu_24dp_FFFB00_FILL0_wght400_GRAD0_opsz24.svg"
+						/></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section id="landingPageCasting">
+			<div class="landingTitles"></div>
+
+			<h2 class="landingTitle">Become</br>an actor</h2>
+		</section>
+		
+		<section id="casting">
+			<p class="casting-text">At Gigi Films, we’re always looking for fresh faces and talented actors to bring stories to life. Whether you’re a seasoned pro or just starting out, this is your chance to join our creative family. Share your passion, show us your unique style, and take the first step towards your acting career with us!
+
+			</p>
+		</section>
+		<section class="ourtalents">
+            <div class="ourtalents-text">
+                <h2>STEP INTO THE SPOTLIGHT</h2>
+                <div class="filtercontainer">
+                    <p class="sort">Tell us about yourself, your experience, and why you want to act. No experience? No worries — we welcome all talent! Once you submit, our team will review your profile and reach out if there’s a match.</p> </div>
+        </section>
+		<section class="fillinform">
+		<div class="formcontainer">
+    		<div class="input-pair">
+      			<label for="fname">First name</label>
+      			<input type="text" id="fname" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     			 <label class="namelast" for="lname">Last name</label>
+      			<input type="text" id="lname" name="lname" />
+   		 	</div>
+		</div>
+						<div class="formcontainer">
+    		<div class="input-pair">
+      		<label for="fname">Adress</label>
+      		<input type="text" id="Adress" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     		 <label class="mail" for="lname">Email</label>
+      		<input type="text" id="Email" name="lname" />
+   		 </div>
+			</div>
+						<div class="formcontainer">
+    		<div class="input-pair">
+      		<label class="numbers" for="fname">Phone number</label>
+      		<input type="text" id="Phone" name="fname" />
+    		</div>
+    		<div class="input-pair">
+  <label for="birthday">Birthdate:</label>
+  <input  class="date" type="date" id="birthday" name="birthday">
+   		 </div>
+			</div>
+
+			
+					<div class="formcontainer">
+    		<div class="input-pair">
+      			<label class="numbers" for="fname">Guardians phone<span>*</span></label>
+      			<input type="text" id="Guardian" name="fname" />
+    		</div>
+    		<div class="input-pair">
+  <label class="whatgender" for="gender">Gender</label>
+  <select id="Gender" name="gender">
+    <option value="M">Male</option>
+    <option value="F">Female</option>
+    <option value="X">X</option>
+  </select>
+   		 	</div>
+		</div>
+			<div class="rowedform">
+				<div class="formcontainer">
+    		<div class="input-pair">
+      			<label for="fname">Ethnicity</label>
+      			<input type="text" id="Ethnicity" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     			 <label for="lname">Languages</label>
+      			<input type="text" id="Language" name="lname" />
+   		 	</div>
+		</div>
+
+				<div class="formcontainer">
+    		<div class="input-pair">
+      			<label for="fname">Hobby's</label>
+      			<input type="text" id="Hobby" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     			 <label for="lname">Talents</label>
+      			<input type="text" id="Talent" name="lname" />
+   		 	</div>
+		</div>
+		</div>
+					<div class="rowedform">
+				<div class="formcontainer">
+    		<div class="input-pair">
+      			<label for="fname">Eyecolor</label>
+      			<input type="text" id="Eye" name="fname" />
+    		</div>
+    		<div class="input-pair">
+     			 <label for="lname">Haircolor</label>
+      			<input type="text" id="Hair" name="lname" />
+   		 	</div>
+		</div>
+				<div class="formcontainer2">
+    		<div class="input-pair">
+  <label class="meters" for="Height">Height</label>
+  <select id="Height" name="height">
+		<option>--</option>
+    <option>1m20-1m25</option>
+    <option>1m30-1m25</option>
+	<option>1m40-1m25</option>
+	<option>1m50-1m25</option>
+	<option>1m60-1m25</option>
+	<option>1m70-1m25</option>
+	<option>1m80-1m25</option>
+	<option>1m90-1m25</option>
+	<option>2m00-1m25</option>
+  </select>
+    		</div>
+    		<div class="input-pair">
+  <label class="kg" for="Weight">Weight</label>
+  <select id="Weight" name="weight">
+	<option>--</option>
+    <option>15-20kg</option>
+    <option>25-30kg</option>
+    <option>35-40kg</option>
+	<option>45-50kg</option>
+	<option>55-60kg</option>
+	<option>65-70kg</option>
+	<option>75-80kg</option>
+	<option>85-90kg</option>
+	<option>95-100kg</option>
+
+  </select>
+   		 	</div>
+
+			
+		</div>
+			</div>			
+		<div class="input-pair">
+			  <p class="aboutyou">Tell us about yourself</p>
+			  <textarea class="textaboutyourself" name="message" rows="10" cols="45"></textarea>
+		</div>
+
+		</section>
+
+
+		<section id="photos">
+			<div class="submitphotos">
+			<h2>SUBMIT YOUR PICTURES</h2>
+			<div class="submittext">
+							<p class="sort2">Tell us about yourself, your experience, and why you want to act. No experience? No worries — we welcome all talent! Once you submit, our team will review your profile and reach out if there’s a match.</p>
+			</div>
+			</div>
+
+			<div class="photocontainer">
+				<div class="uploadimage">
+					<img src="/images/become_an_actor/become_an_actor_landing_syp_1.jpg">
+					  <input type="file" id="image" name="image">
+				</div>
+				<div class="uploadimage">
+					<img src="/images/become_an_actor/become_an_actor_landing_syp_2.jpg">
+					  <input type="file" id="image" name="image">
+				</div>
+				<div class="uploadimage">
+					<img src="/images/become_an_actor/become_an_actor_landing_syp_3.jpg">
+					  <input type="file" id="image" name="image">
+				</div>
+				
+			</div>
+							<div class="submitrequest">
+						<a href="#" class="buttonjobs2">send in form</a>
+					</div>
+		</section>
+		    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+	</body>
+</html>

@@ -1,131 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Gigifilms</title>
-		<link href="./css/reset.css" rel="stylesheet" type="text/css" />
-		<link href="./css/styling.css" rel="stylesheet" type="text/css" />
-		<link href="./css/castingProjects.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<header>
-              ><img
-                src="images/icons/close_32dp_FFFB00_FILL0_wght400_GRAD0_opsz40.svg"
-            /></a>
-          </li>
-          <li><a href="index.html" class="logo">GIGIfilms</a></li>
-          <li><a href="index.html" class="primaryactive">home</a></li>
-          <li><a href="casting.html" class="primaryactive">casting</a></li>
-          <li>
-            <a href="ourProjects.html" class="primaryactive">our projects</a>
-          </li>
-          <li><a href="#" class="primaryactive">about us</a></li>
-          <li><a href="login.html" class="primaryactive">login</a></li>
-        </ul>
-        <ul>
-          <li><a href="index.html" class="logo">GIGIfilms</a></li>
-          <li><a href="index.html" class="primaryhover hideMobile">home</a></li>
-          <li>
-            <a href="casting.html" class="primaryactive hideMobile">casting</a>
-          </li>
-          <li>
-            <a href="ourProjects.html" class="primaryactive hideMobile"
-              >our projects</a
-            >
-          </li>
-          <li><a href="#" class="primaryactive hideMobile">about us</a></li>
-          <li>
-            <a href="login.html" class="secondaryactive hideMobile">login</a>
-          </li>
-          <li onclick="showSidebar()" class="menu-button">
-            <a href="#"
-              ><img
-                src="images/icons/menu_24dp_FFFB00_FILL0_wght400_GRAD0_opsz24.svg"
-            /></a>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gigifilms</title>
+    <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./css/styling.css" rel="stylesheet" type="text/css" />
+    <link href="./css/castingProjects.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="sidebar-active" />
+        <a href="index.html" class="logo logo-mobile">GIGIfilms</a>
+        <a
+          href="login.html"
+          class="primaryactive logo-mobile login-mobile login"
+          >Login</a
+        >
+        <label for="sidebar-active" class="menu-icon"
+          ><img
+            src="images/icons/menu_24dp_FFFB00_FILL0_wght400_GRAD0_opsz24.svg"
+            width="30"
+            height="30"
+        /></label>
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+          <label for="sidebar-active" class="close-icon">
+            <img
+              class="close-icon"
+              src="images/icons/close_32dp_FFFB00_FILL0_wght400_GRAD0_opsz40.svg"
+          /></label>
+          <a href="index.html" class="logo">GIGIfilms</a>
+          <a href="index.html" class="nav-a primaryactive">home</a>
+          <a href="aboutUs.html" class="primaryactive nav-a">about us</a>
+
+          <a href="ourWorks.html" class="primaryactive nav-a">our Works</a>
+
+          <a href="talents.html" class="primaryactive nav-a">Talents</a>
+
+          <a href="casting.html" class="primaryactive nav-a youre-here"
+            >casting calls</a
+          >
+
+          <a href="login.html" class="primaryactive nav-a">Register</a>
+          <a href="login.html" class="primaryactive nav-a login">Login</a>
+        </div>
       </nav>
-		</header>
-		<section id="landingCastingProj">
-			<div class="landingText-desktop">
-				<h1>CASTING</h1>
-				<h1>PROJECTS</h1>
-			</div>
+    </header>
+    <section id="landingCastingProj">
+      <h2>CASTING CALLS</h2>
+    </section>
 
-			<div class="landingText-mobile">
-				<h1>CASTING</h1>
-				<h1>PROJECTS</h1>
-			</div>
-		</section>
+    <section id="projectCall">
+      <p>
+        Discover the ongoing and completed film projects of GIGI Films vzw.
+        Actors and new talent can easily register here for castings and
+        collaborations. This platform brings creators and talent together —
+        open, creative, and in motion.
+      </p>
+    </section>
 
-		<section id="projectCall">
-			<div class="projectText-desktop">
-				<p>
-					Discover the ongoing and completed film projects of GIGI Films vzw.
-					Actors and new talent can easily register here for castings and
-					collaborations. This platform brings creators and talent together —
-					open, creative, and in motion.
-				</p>
-			</div>
+    <section id="project-filter">
+      <h3>PROJECTS</h3>
+      <div class="projects-buttons">
+        <h4>2 PROJECTS FOUND</h4>
+        <div class="buttons">
+          <h4>SORT BY:</h4>
+          <a href="#" class="sortBy">ALL</a>
+          <a href="#" class="sortBy">NEWEST</a>
+          <a href="#" class="sortBy">OLDEST</a>
+        </div>
+      </div>
+    </section>
+    <section id="list">
+      <div class="project-call">
+        <div class="projectInfo">
+          <h4>CALL FOR ACTOR</h4>
+          <h4>Movies inc.</h4>
+          <p>
+            We are looking for a 18-year-old boy from Brussels for a short film
+            about a summer of change and friendship. Filming in September 2025.
+            No experience needed. Paid role. To apply, send a short video with
+            your name, age, and location to casting@gigifilms.com. Deadline July
+            30.
+          </p>
+          <h4>ONLINE SINCE 3 DAYS</h4>
+        </div>
+        <img src="images/casting_projects/casting_projects_cfa.jpg" />
+      </div>
+    </section>
 
-			<div class="projectText-mobile">
-				<p>
-					Discover the ongoing and completed film projects of GIGI Films vzw.
-					Actors and new talent can easily register here for castings and
-					collaborations. This platform brings creators and talent together —
-					open, creative, and in motion.
-				</p>
-			</div>
-		</section>
-
-		<section id="projectList">
-			<div class="projectHeader-desktop">
-				<h3>PROJECTS</h3>
-			</div>
-			<div class="projectHeader-mobile">
-				<h3>PROJECTS</h3>
-			</div>
-			<div class="projectHeaderButtons">
-				<h2>PROJECTS FOUND</h2>
-				<div class="buttons">
-					<h2>SORT BY:</h2>
-					<ul>
-						<a href="#" class="sortBy"><h2>ALL</h2></a>
-					</ul>
-					<ul>
-						<a href="#" class="sortBy"><h2>NEWEST</h2></a>
-					</ul>
-					<ul>
-						<a href="#" class="sortBy"><h2>OLDEST</h2></a>
-					</ul>
-				</div>
-			</div>
-		</section>
-		<section id="list">
-			<div class="projectA">
-				<h3>CASTING CALL FOR ACTOR</h3>
-				<h2>NAME OF FILMHOUSE</h2>
-				<img src="images/casting_projects/casting_projects_cfa.jpg" />
-				<p>
-					QQQQQQQQQQQQQQQQQQQQQ QQQQQQQQQQQQQQQQQQQQQQQQQ
-					QQQQQQQQQQQQQQQQQQQQQQQQQQ QQQQQQQQQQQQQQQQQQQQQQQQQ
-					QQQQQQQQQQQQQQQQQQQQQQQQQ QQQQQQQQQQQQQQQQQQQQQQQQQQ
-					QQQQQQQQQQQQQQQQQQQQQQQQQQ QQQQQQQQQQQQQQQQQQQQ
-				</p>
-				<h2>ONLINE SINCE 3 DAYS</h2>
-			</div>
-		</section>
-
-		<script>
-			function showSidebar() {
-				const sidebar = document.querySelector(".sidebar");
-				sidebar.style.display = "flex";
-			}
-			function hideSidebar() {
-				const sidebar = document.querySelector(".sidebar");
-				sidebar.style.display = "none";
-			}
-		</script>
-	</body>
+    <section id="pageSwitch">
+      <a href="#"><span style="font-size: 40px">&#8592;</span></a>
+      <a href="#">PREVIOUS</a>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">NEXT</a>
+      <a href="#"><span style="font-size: 40px">&#8594;</span></a>
+    </section>
+    <section id="pageSwitch-mobile">
+      <a class="show-more" href="#">Show more</a>
+    </section>
+    <footer>
+      <h3>GIGI</h3>
+      <p>
+        © GIGI Films — Casting . stories from real life. Made in Brussels with
+        love, guts . good light.
+      </p>
+      <div class="contact">
+        <h3>Contacts</h3>
+        <p>zohra@gigifilms.be</p>
+        <p>romy@gigifilms.be</p>
+      </div>
+    </footer>
+  </body>
 </html>
