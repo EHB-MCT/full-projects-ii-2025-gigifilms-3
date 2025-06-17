@@ -106,9 +106,10 @@
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
   .Skiff img {
-    width: 40%;
+    width: 30%;
+    padding: 50px;
   }
   .Skiff-description {
     width: 30%;
@@ -125,4 +126,7 @@
     width: 30%;
     margin-left: 0px;
   }
+}
+
+.AnaYek {
 }

@@ -9,37 +9,45 @@
 		<link href="./css/becomeanactor.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		<header>
-			<nav>
-				<ul class="sidebar">
-					<li onclick="hideSidebar()">
-						<a href="#"
-							><img
-								src="images/icons/close_32dp_FFFB00_FILL0_wght400_GRAD0_opsz40.svg"
-						/></a>
-					</li>
-					<li><a href="#" class="primaryactive">home</a></li>
-					<li><a href="#" class="primaryactive">info</a></li>
-					<li><a href="#" class="primaryactive">our projects</a></li>
-					<li><a href="#" class="primaryactive">casting</a></li>
-					<li><a href="#" class="primaryactive">login</a></li>
-				</ul>
-				<ul>
-					<li><a href="#" class="logo">gigifilms</a></li>
-					<li><a href="#" class="primaryhover hideMobile">home</a></li>
-					<li><a href="#" class="primaryactive hideMobile">info</a></li>
-					<li><a href="#" class="primaryactive hideMobile">our projects</a></li>
-					<li><a href="#" class="primaryactive hideMobile">casting</a></li>
-					<li><a href="#" class="secondaryactive hideMobile">login</a></li>
-					<li onclick="showSidebar()" class="menu-button">
-						<a href="#"
-							><img
-								src="images/icons/menu_24dp_FFFB00_FILL0_wght400_GRAD0_opsz24.svg"
-						/></a>
-					</li>
-				</ul>
-			</nav>
-		</header>
+    <header>
+      <nav>
+        <input type="checkbox" id="sidebar-active" />
+        <a href="index.html" class="logo logo-mobile">GIGIfilms</a>
+        <a
+          href="login.html"
+          class="primaryactive logo-mobile login-mobile login"
+          >Login</a
+        >
+        <label for="sidebar-active" class="menu-icon"
+          ><img
+            src="images/icons/menu_24dp_FFFB00_FILL0_wght400_GRAD0_opsz24.svg"
+            width="30"
+            height="30"
+        /></label>
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+          <label for="sidebar-active" class="close-icon">
+            <img
+              class="close-icon"
+              src="images/icons/close_32dp_FFFB00_FILL0_wght400_GRAD0_opsz40.svg"
+          /></label>
+          <a href="index.html" class="logo">GIGIfilms</a>
+          <a href="index.html" class="nav-a primaryactive youre-here">home</a>
+          <a href="aboutUs.html" class="primaryactive nav-a">about us</a>
+
+          <a href="ourWorks.html" class="primaryactive nav-a">our Works</a>
+
+          <a href="talents.html" class="primaryactive nav-a">Talents</a>
+
+          <a href="castingProjects.html" class="primaryactive nav-a"
+            >casting calls</a
+          >
+
+          <a href="login.html" class="primaryactive nav-a">Register</a>
+          <a href="login.html" class="primaryactive nav-a login">Login</a>
+        </div>
+      </nav>
+    </header>
 		<section id="landingPageCasting">
 			<div class="landingTitles"></div>
 
