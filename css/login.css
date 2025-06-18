@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Integral";
-  src: url(../fonts/Fontspring-DEMO-integralcf-regular.otf);
+  src: url("../fonts/Fontspring-DEMO-integralcf-regular.otf");
 }
 
 @font-face {
   font-family: "Integral-bold";
-  src: url(../fonts/Fontspring-DEMO-integralcf-bold.otf);
+  src: url("../fonts/Fontspring-DEMO-integralcf-bold.otf");
 }
 
 .body-login {
