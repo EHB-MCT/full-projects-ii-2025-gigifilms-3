@@ -11,6 +11,7 @@
 }
 
 .landingTitles-mobile h1 {
+  font-family: "Integral", sans-serif;
   font-size: 22vw;
   width: 60%;
 }
@@ -33,6 +34,7 @@
     margin-bottom: 60px;
   }
   .landingTitles-desktop h1 {
+    font-family: "integral", sans-serif;
     font-size: 15vw;
   }
   .landingTitles-desktop h3 {

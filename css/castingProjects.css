@@ -14,7 +14,7 @@
 
 #landingCastingProj {
   min-height: 100vh;
-  background-image: url(/images/casting_projects/casting_projects_landing.png);
+  background-image: url(../images/casting_projects/casting_projects_landing.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 75%;
