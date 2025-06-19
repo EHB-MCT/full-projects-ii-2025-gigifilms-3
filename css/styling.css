@@ -134,6 +134,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  z-index: 10000;
 }
 
 .links-container {
