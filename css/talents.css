@@ -1,0 +1,140 @@
+#landingPage-talents {
+  min-height: 100vh;
+  background-image: url(../images/casting/casting_landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#landingPage-talents h2 {
+  font-size: 8vh;
+  text-align: right;
+  margin-bottom: 30px;
+  margin-right: 2%;
+}
+
+.info-talents p {
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  font-size: 14px;
+  padding: 50px;
+}
+
+@media (min-width: 750px) {
+  #landingPage-talents h2,
+  #landingPage-talents p {
+    display: flex;
+    justify-content: end;
+    font-size: 15vh;
+    margin-bottom: 50px;
+  }
+  #landingPage-talents p {
+    font-size: 16px;
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  #landingPage-talents h2 {
+    font-size: 12vw;
+  }
+}
+
+.Faces-of-gigifilms {
+  color: black;
+}
+.titel-faces {
+  font-size: 7vh;
+  margin: 20px;
+}
+
+.talents-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  margin: 50px 30px;
+}
+
+.image-box {
+  position: relative;
+}
+
+.image-box img {
+  width: 100%;
+  display: block;
+}
+
+.image-name {
+  color: #fffb00;
+  font-size: 2rem;
+  width: 90%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.image-name h3 {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  font-size: 2rem;
+}
+.image-name:hover {
+  opacity: 1;
+}
+
+@media (min-width: 750px) {
+  .titel-faces {
+    font-size: 7vw;
+    margin: 50px;
+  }
+
+  .talents-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 100px;
+  }
+}
+.call-signin {
+  color: black;
+  padding: 30px;
+}
+
+.call-signin h3 {
+  margin-bottom: 30px;
+}
+.call-signin p {
+  margin-bottom: 30px;
+}
+
+.call-signin a {
+  background-color: black;
+  color: #fffb00;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  width: 25%;
+}
+.call-signin a:hover {
+  background-color: #fffb00;
+  color: black;
+}
+
+@media (min-width: 800px) {
+  .call-signin {
+    width: 50%;
+    margin: 100px;
+  }
+}

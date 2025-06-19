@@ -1,0 +1,163 @@
+#landingCastingProj h2 {
+  font-size: 18vw;
+  margin-bottom: 50px;
+  margin-left: 2%;
+}
+
+@media (min-width: 800px) {
+  #landingCastingProj h2 {
+    font-size: 12vw;
+  }
+}
+
+/*************************SECTIONS*************************/
+
+#landingCastingProj {
+  min-height: 100vh;
+  background-image: url(../images/casting_projects/casting_projects_landing.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#projectCall p {
+  color: black;
+  width: 90%;
+  margin: 0 "auto";
+  padding: 50px 20px;
+}
+
+@media (min-width: 800px) {
+  #projectCall p {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+  }
+}
+
+#project-filter h3 {
+  color: black;
+  font-size: 5vh;
+  margin: 5%;
+}
+
+.projects-buttons h4,
+.projects-buttons h4 {
+  color: black;
+  margin: 20px;
+}
+
+.project-call {
+  background-color: black;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 40px;
+}
+
+.project-call:hover {
+  transition: 0.75s;
+  transform: scale(1.05);
+}
+
+.project-call p {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+#list h4 {
+  margin-bottom: 10px;
+}
+
+.project-call img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+@media (min-width: 750px) {
+  #project-filter h3,
+  .projects-buttons h4 {
+    margin: 2%;
+  }
+  .project-call img {
+    width: 50%;
+    margin: 20px 0;
+  }
+  .project-call {
+    display: flex;
+    justify-content: space-around;
+  }
+  .projectInfo {
+    width: 40%;
+  }
+}
+@media (min-width: 900px) {
+  .project-call img {
+    width: 30%;
+  }
+  .project-call {
+    width: 80%;
+    margin: 50px auto;
+  }
+  .projectInfo {
+    padding: 30px;
+  }
+  .project-call p {
+    font-size: 16px;
+  }
+}
+
+.buttons {
+  font-family: "integral-bold";
+}
+.buttons a,
+#pageSwitch a {
+  font-size: 14px;
+  margin-left: 20px;
+  font-family: "Integral";
+  color: black;
+  text-decoration: none;
+}
+
+.buttons a:hover {
+  text-decoration: underline;
+}
+
+#pageSwitch {
+  display: none;
+}
+.show-more {
+  display: block;
+  text-align: center;
+  font-family: "Integral";
+  font-size: 14px;
+  color: #fffb00;
+  background-color: black;
+  text-decoration: none;
+  margin: 20px auto;
+  width: 40%;
+  border-radius: 40px;
+  padding: 10px 25px;
+}
+
+@media (min-width: 750px) {
+  .buttons {
+    display: flex;
+    width: 95%;
+    justify-content: flex-end;
+  }
+  .buttons h4 {
+    margin: 0;
+  }
+  .show-more {
+    display: none;
+  }
+  #pageSwitch {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+}

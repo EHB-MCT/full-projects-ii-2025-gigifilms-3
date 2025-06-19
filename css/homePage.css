@@ -1,0 +1,176 @@
+/********************************************************* LANDING PAGE ***************************************/
+#landingPage {
+  min-height: 100vh;
+  background-image: url(../images/home/home_landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.landingTitles-mobile h1 {
+  font-family: "Integral", sans-serif;
+  font-size: 22vw;
+  width: 60%;
+}
+.landingTitles-mobile h3 {
+  font-size: 10vw;
+}
+.landingTitles-mobile {
+  margin-bottom: 50px;
+}
+.landingTitles-desktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .landingTitles-mobile {
+    display: none;
+  }
+  .landingTitles-desktop {
+    display: block;
+    margin-bottom: 60px;
+  }
+  .landingTitles-desktop h1 {
+    font-family: "integral", sans-serif;
+    font-size: 15vw;
+  }
+  .landingTitles-desktop h3 {
+    font-size: 4vw;
+  }
+}
+
+/********************************************************* OUR STORY  ******************************************************************/
+.ourStory-text,
+.casting-text {
+  padding: 40px;
+}
+
+.ourStory-text-container,
+.casting-text-container {
+  background-color: black;
+  width: 100%;
+  padding-bottom: 4em;
+}
+
+.ourStory-text h3,
+.ourProjects-text h3,
+.casting-text h3 {
+  margin: 20px 0;
+}
+
+.ourStory-text p,
+.casting-text p {
+  margin-bottom: 40px;
+}
+
+#ourStory img,
+#casting img {
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  #ourStory {
+    display: flex;
+  }
+  #ourStory img,
+  #casting img {
+    display: block;
+    min-width: 50%;
+  }
+
+  .ourStory-text-container p,
+  .casting-text-container p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 850px) {
+  #ourStory,
+  #casting {
+    display: flex;
+  }
+  #ourStory img {
+    width: 30%;
+  }
+  .ourStory-text,
+  .casting-text {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #ourStory p,
+  #casting p {
+    font-size: 20px;
+  }
+}
+/********************************************************* PROJECTS  ******************************************************************/
+
+#ourProjects img {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#ourProjects a {
+  display: block;
+  width: 40%;
+  background-color: black;
+  border: 0;
+  margin: 30px auto;
+  text-align: center;
+  padding: 15px;
+}
+
+#ourProjects a:hover {
+  background-color: #fffb00;
+  color: #000000;
+}
+
+.ourProjects-text {
+  color: black;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
+}
+
+@media (min-width: 800px) {
+  #ourProjects img {
+    width: 30%;
+  }
+  #ourProjects a {
+    width: 10%;
+    padding: 20px;
+  }
+  .projects {
+    display: flex;
+  }
+  .ourProjects-text {
+    width: 50%;
+  }
+  .ourProjects-text p {
+    font-size: 16px;
+  }
+}
+
+/********************************************************* CASTING  ******************************************************************/
+
+.last-title {
+  color: black;
+  margin: 50px auto;
+  width: 80%;
+}
+.last-title h3 {
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  #casting img {
+    width: 40%;
+  }
+}

@@ -1,0 +1,143 @@
+.landing-aboutUs {
+  background-image: url(../images/gigi_info/about-us-landing.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.landing-aboutUs h2 {
+  font-size: 10vh;
+  margin-bottom: 50px;
+  margin-right: 5%;
+  text-align: right;
+}
+
+@media (min-width: 800px) {
+  .landing-aboutUs h2 {
+    font-size: 15vh;
+  }
+}
+/**************************************************** WHO ARE WE ******************************************/
+
+.who {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: stretch;
+  background-color: black;
+}
+.image-who {
+  max-width: 100%;
+}
+
+.who .text-container {
+  background-color: black;
+  padding: 50px;
+}
+
+.who p,
+.who h3 {
+  margin-bottom: 35px;
+}
+
+.who p {
+  font-size: 14px;
+}
+
+@media (min-width: 800px) {
+  .who {
+    justify-content: space-between;
+  }
+  .who img {
+    width: 35%;
+  }
+  .who .text-container {
+    max-width: 40%;
+    padding: 100px;
+  }
+  .who p {
+    font-size: 16px;
+  }
+}
+
+/**************************************************** TWO MINDS, ONE VISION ******************************************/
+.text-container-oneV {
+  background-color: black;
+  padding: 50px;
+}
+.One-vision img {
+  width: 80%;
+  display: block;
+  margin: 50px auto;
+}
+
+.text-container-oneV h3 {
+  margin-bottom: 50px;
+}
+.text-container-oneV p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+@media (min-width: 800px) {
+  .One-vision {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .One-vision img {
+    width: 30%;
+    margin: 50px 100px;
+    padding: 0;
+  }
+  .text-container-oneV {
+    padding: 50px;
+  }
+  .text-container-oneV p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 70%;
+  }
+}
+/**************************************************** PORTFOLIO ******************************************/
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio img {
+  width: 70%;
+  padding: 20px;
+}
+.portfolio p {
+  padding: 20px 50px;
+  font-size: 14px;
+  padding-bottom: 50px;
+}
+.Zohra p {
+  color: black;
+}
+.Romy {
+  background-color: black;
+}
+
+@media (min-width: 800px) {
+  .portfolio img {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .portfolio div {
+    width: 50%;
+  }
+  .portfolio p {
+    font-size: 1rem;
+    padding: 50px 150px;
+    margin: 0 auto;
+  }
+}
