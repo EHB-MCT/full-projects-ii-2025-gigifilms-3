@@ -128,5 +128,8 @@
   }
 }
 
-.AnaYek {
+@media (min-width: 800px) {
+  .ourProjectsAnaImage {
+    width: 400%;
+  }
 }
