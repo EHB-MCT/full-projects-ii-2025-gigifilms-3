@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Integral-bold";
-  src: url(/fonts/Fontspring-DEMO-integralcf-bold.otf);
+  src: url("../fonts/Fontspring-DEMO-integralcf-bold.otf");
 }
 
 .body-login {
